@@ -1,4 +1,1 @@
----
-Something rather than nothing.
 
----
