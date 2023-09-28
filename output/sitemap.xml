@@ -15,7 +15,7 @@
  </url>
  <url>
   <loc>https://damakubu.github.io/damakubu/archive.html</loc>
-  <lastmod>2023-09-28T20:42:00Z</lastmod>
+  <lastmod>2023-09-28T20:49:00Z</lastmod>
  </url>
  <url>
   <loc>https://damakubu.github.io/damakubu/categories/</loc>
@@ -39,7 +39,7 @@
  </url>
  <url>
   <loc>https://damakubu.github.io/damakubu/lt/archive.html</loc>
-  <lastmod>2023-09-28T20:42:00Z</lastmod>
+  <lastmod>2023-09-28T20:49:00Z</lastmod>
  </url>
  <url>
   <loc>https://damakubu.github.io/damakubu/lt/categories/</loc>
@@ -50,9 +50,18 @@
   <lastmod>2023-09-28T20:40:00Z</lastmod>
  </url>
  <url>
+  <loc>https://damakubu.github.io/damakubu/lt/posts/expected-utility-evoliutonary-remarks-on-why-its-not-intuitive/</loc>
+  <lastmod>2023-09-28T20:49:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://damakubu.github.io/damakubu/posts/expected-utility-evoliutonary-remarks-on-why-its-not-intuitive/" />
+ </url>
+ <url>
   <loc>https://damakubu.github.io/damakubu/lt/posts/grafiti/</loc>
   <lastmod>2023-09-28T20:42:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="https://damakubu.github.io/damakubu/posts/grafiti/" />
+ </url>
+ <url>
+  <loc>https://damakubu.github.io/damakubu/posts/expected-utility-evoliutonary-remarks-on-why-its-not-intuitive/</loc>
+  <lastmod>2023-09-28T20:49:00Z</lastmod>
  </url>
  <url>
   <loc>https://damakubu.github.io/damakubu/posts/grafiti/</loc>
