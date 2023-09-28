@@ -1,0 +1,4 @@
+Sitemap: https://damakubu.github.io/damakubu/sitemapindex.xml
+
+User-Agent: *
+Host: damakubu.github.io
