@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DamaKubu</title><link>https://damakubu.github.io/damakubu/</link><description>Asmeninė svetainė/blogas</description><atom:link href="https://damakubu.github.io/damakubu/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2023 &lt;a href="mailto:kundrotasdanielius@gmail.com"&gt;Danielius Kundrotas&lt;/a&gt; </copyright><lastBuildDate>Fri, 29 Sep 2023 07:24:49 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Expected Utility evoliutonary remarks on why it's not intuitive</title><link>https://damakubu.github.io/damakubu/posts/expected-utility-evoliutonary-remarks-on-why-its-not-intuitive/</link><dc:creator>Danielius Kundrotas</dc:creator><description>&lt;p&gt;Write your post here.&lt;/p&gt;</description><guid>https://damakubu.github.io/damakubu/posts/expected-utility-evoliutonary-remarks-on-why-its-not-intuitive/</guid><pubDate>Thu, 28 Sep 2023 20:46:22 GMT</pubDate></item><item><title>grafiti</title><link>https://damakubu.github.io/damakubu/posts/grafiti/</link><dc:creator>Danielius Kundrotas</dc:creator><description>&lt;p&gt;Grafiti is basically pissing.&lt;/p&gt;</description><guid>https://damakubu.github.io/damakubu/posts/grafiti/</guid><pubDate>Thu, 28 Sep 2023 20:42:04 GMT</pubDate></item><item><title>Standartinis nuokrypis vs. standartinė paklaida</title><link>https://damakubu.github.io/damakubu/posts/se%20vs%20std/</link><dc:creator>Danielius Kundrotas</dc:creator><description>&lt;div id="cell-id=b8b7bee2" class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="$%5Csigma$-vs-SE"&gt;$\sigma$ vs SE&lt;a class="anchor-link" href="https://damakubu.github.io/damakubu/posts/se%20vs%20std/#%24%5Csigma%24-vs-SE"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;em&gt;standard deviation vs. standard error&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Definitions:&lt;/p&gt;
+&lt;p&gt;$X$ - random variable.
+$$\mu = E[X] = \frac{1}{n}\sum_{i=0}^n(x_i)$$
+$$Cov[X,Y] = E[(X-\mu_X)(Y-\mu_Y)]$$
+$$Var[X]   = Cov[X,X] = E[(X - \mu)^2] = \frac{1}{n}  \sum_{i=0}^n(x_i - {\mu})^2$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Standard deviation $\sigma = \sqrt{Var[X]}$, its distrubution parameter shows how data is spread.&lt;/p&gt;
+&lt;p&gt;Standard error $SE = \frac{\sigma}{\sqrt{n}}$, it's derived parameter basically means standard deviation.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h5 id="Example:"&gt;Example:&lt;a class="anchor-link" href="https://damakubu.github.io/damakubu/posts/se%20vs%20std/#Example:"&gt;¶&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;Say we have a lot of straight edges.&lt;/p&gt;
+&lt;p&gt;Paimk atsitiktinai ir nepriklausomai: 25 liniuotes,
+išmatuojam, jog vidurkis lygus 20 cm, o standartinis nuokrypis lygus $\sigma$ = 1 cm.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Esant gauso skirstiniui 68% duomenų patenka į $\pm 1$ cm intervalą aplink vidurkį.&lt;/p&gt;
+&lt;p&gt;Arba yra 95% tikimybė, jog atsitiktinai pasirinkta liniuotė bus nutolusi nuo vidurkio ne daugiau nei 2 cm.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Liniuočių vidurkio paklaida $\sqrt{25} = 5$, yra SE $= \frac{1}{5} = 0.2$ cm.&lt;/p&gt;
+&lt;p&gt;Išmatavę 100 liniuočių, tikėtina gausim labai artima vidurkį ~20cm,
+ir $\sigma$ beveik neturėtų pasikeisti toliau bus 1 cm.&lt;/p&gt;
+&lt;p&gt;Bet mūsų vidurkio paklaida $\sqrt{100} = 10$, bus mažesnė SE = 0.1cm.&lt;/p&gt;
+&lt;p&gt;$\sigma$ begaliniam duomenų limite priartėja konkrečią teigiamą vertę, bet SE tampa lygi 0.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Kitas pavyzdys turime vieną liniuotę ir ją matuojame gazilijoną kartų.
+Darydami prielaidą, jog neturime sisteminės paklaidos, liniuotės tikras ilgis bus vidurkis, o matavimai bus mūsų populiacija.&lt;/p&gt;
+&lt;p&gt;Ir nors matavimai skirsis, matuodami daug kartų eliminuosim atsitiktinę paklaidą.&lt;/p&gt;
+&lt;p&gt;Praktikoje, atsitiktinė paklaida matuojamo dydžio yra standartinė paklaida SE, dar padauginta stiudento koeficiento, todėl ją galima kiek norima sumažint eliminuoti išmatavus pakankamai daug kartų.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Nebūtinas normalusis skirstinys parametrams, pavyzdžiui, galima išmatuoti studentų amžių,
+cj standartinis nuokrypis ~5 metai. Bet vidurkis dėl studentų skaičiaus gali turėti labai mažą atsitiktinę paklaidą tarkim kelios dienos, dėl didelio studentų skaičiaus.&lt;/p&gt;
+&lt;p&gt;Beje jei po to matuosim visos žmonijos populiacijos amžių, tai gausim skirtingą ir standartinį nuokrypį ir vidurkį.
+Nes studentų imtis nėra atsitiktinė(netolygiai reprezentuoja visą populiaciją.)&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description><guid>https://damakubu.github.io/damakubu/posts/se%20vs%20std/</guid><pubDate>Mon, 25 Sep 2023 21:00:00 GMT</pubDate></item></channel></rss>

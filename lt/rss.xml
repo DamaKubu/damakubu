@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DamaKubu</title><link>https://damakubu.github.io/damakubu/</link><description>Asmeninė svetainė/blogas</description><atom:link href="https://damakubu.github.io/damakubu/lt/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>lt</language><copyright>Contents © 2023 &lt;a href="mailto:kundrotasdanielius@gmail.com"&gt;Danielius Kundrotas&lt;/a&gt; </copyright><lastBuildDate>Fri, 29 Sep 2023 07:24:49 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Expected Utility evoliutonary remarks on why it's not intuitive</title><link>https://damakubu.github.io/damakubu/lt/posts/expected-utility-evoliutonary-remarks-on-why-its-not-intuitive/</link><dc:creator>Danielius Kundrotas</dc:creator><description>&lt;p&gt;On expected utility series of blogs.&lt;/p&gt;
+&lt;p&gt;fuck ugly girl for certain or beautiful girl with 10% chance.
+Go for the beautiful girl bro.&lt;/p&gt;
+&lt;p&gt;Predictebly lose.
+anyway išgelbėti veina random žmogų for sure, yra blogiau negu mesti kauliuką ir tik su 1% sėkmės tikimybe bandyti išgelbėti 1000 žmonių.
+Jeigu bandai maximizint realų žmonių kiekį antram atvejį, kartojant situaciją daug kartų vidutiniškai išgelbsti 10žmonių.&lt;/p&gt;
+&lt;p&gt;Ir taip sutinku, tai etiškai remiantis vien bandymų maximalizuot išgelbėtas gyvybes yra teisingas pasirinkimas. Deja tas pasirinkimas nėra lengvai suderinimas su žmogaus išgyvenimu.
+Tarkim duodamas atlygis už išgelbėtą žmogų - 1kg duonos.&lt;/p&gt;
+&lt;p&gt;Pasirinkus A, žmogus for sure išgelbėja 1 žmogų, for sure gauna 1kg duonos.&lt;/p&gt;
+&lt;p&gt;Pasirinkus B, žmogus tik su 1% tikimybe Išgelbėje 1000 žmonių,
+tai yra jis gauna 1000kg duonos su 1% tikimybę.&lt;/p&gt;
+&lt;p&gt;Visgi evoliuciškai žmogutis, kuris pasirinks B, 99% negaus duonos.
+Reikės 42 dviejų metimų, jog žmogus 98.8% patikimumu gautų duonos.
+Arba 7 kartus, jog tikimybė būtų 50% gauti duonos.
+Jeigu tokia galimybė pasitaiko tik kelis kartus gyvenime. Žmogus, pasirinkdamas A variantą išgyvens, o B variantą tikėtina mirs.&lt;/p&gt;
+&lt;p&gt;Taigi nors etiškai naudinga imti variantą B, evoliucinė atranka, tai žmonėms daro neintuityvią(mes taip nesielgiame), nes esame padaryti all mighty evoliucinių jėgų.
+Visgi, jei tai yra ne laukinė gamtos visuomenė ir žmogus yra užtikrintas išgyvenimas, tada išties apsimoka imti variantą B. Taip pat apsimoka imti variantą B vis labiau, jei žmogaus gyvenimo trukmė ilgesnė, tai yra jis turi daugiau bandymų. Taigi esant etiškai visuomenei, galim pasiekti didesnį optimumą, jei užtikriname saugų pragyvenimą ir tiems, kurie "negauna rezultatų".&lt;/p&gt;
+&lt;p&gt;Anyway some thoughts, kodėl racionaliai akivaizdus etinis sprendimas, nėra intuityvus. Atsakymas, mūsų egocentrinis išgyvenimo modelis susifokusavęs ne į žmoniją, bet į vieną narį.&lt;/p&gt;
+&lt;p&gt;Žmonių bendrija, kurios nariai yra susifokusavę ties tokiu altruistiniu tikslu nacionaliu visos žmonių grupės, išties turėtų būti pranašesnė už tą kuri tokio tikslo neturi.
+Tai evoliucinė atranka tarp žmonių grupių, turėtų palikti labiau altruistines grupes, kurių žmonės vis labiau supanašėja į lasteles(nesavanaudiškas dėl "bendro" gėrio dirbančius mikroindividus).&lt;/p&gt;
+&lt;p&gt;Iš tos perspektyvos karai, yra naturali jėga, vedanti link tobulesnės visuomenės, kompeticija tarp skirtingų tautų, tai kas daro jas tobulesnės,
+aišku yra kaina, bet tik ta kraujo kaina vyksta tobulėjimas.&lt;/p&gt;
+&lt;p&gt;Bliamba, teisingai sakė JR. Kennedy, jog trečia pasaulinį karą pradės politikai nebuvę kareiviais. Išties toks grynai intelektualinis spekuliavimas atskirtas nuo tikrovės, šaltas ir kuriantis karus.
+Fucking hard to say what's gonna happen man.&lt;/p&gt;</description><guid>https://damakubu.github.io/damakubu/lt/posts/expected-utility-evoliutonary-remarks-on-why-its-not-intuitive/</guid><pubDate>Thu, 28 Sep 2023 20:46:22 GMT</pubDate></item><item><title>grafiti</title><link>https://damakubu.github.io/damakubu/lt/posts/grafiti/</link><dc:creator>Danielius Kundrotas</dc:creator><description>&lt;p&gt;Grafiti iš esmės yra šlapinimasis.&lt;/p&gt;</description><guid>https://damakubu.github.io/damakubu/lt/posts/grafiti/</guid><pubDate>Thu, 28 Sep 2023 20:42:04 GMT</pubDate></item><item><title>Standartinis nuokrypis vs. standartinė paklaida</title><link>https://damakubu.github.io/damakubu/lt/posts/se%20vs%20std/</link><dc:creator>Danielius Kundrotas</dc:creator><description>&lt;div id="cell-id=b8b7bee2" class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="$%5Csigma$-vs-SE"&gt;$\sigma$ vs SE&lt;a class="anchor-link" href="https://damakubu.github.io/damakubu/lt/posts/se%20vs%20std/#%24%5Csigma%24-vs-SE"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;em&gt;standartinis nuokrypis(standard deviation) vs. standartinė paklaida(standard error)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Žymėjimai:&lt;/p&gt;
+&lt;p&gt;$X$ - atsititktinis dydis.
+$$\mu = E[X] = \frac{1}{n}\sum_{i=0}^n(x_i)$$
+$$Cov[X,Y] = E[(X-\mu_X)(Y-\mu_Y)]$$
+$$Var[X]   = Cov[X,X] = E[(X - \mu)^2] = \frac{1}{n}  \sum_{i=0}^n(x_i - {\mu})^2$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Standartinis nuokrypis $\sigma = \sqrt{Var[X]}$, tai duomenų išsibarstymo matas(spread)skirstinio parametras.&lt;/p&gt;
+&lt;p&gt;Standartinė paklaida $SE = \frac{\sigma}{\sqrt{n}}$, tai išvestinio dydžio vidurkio standartinis nuokrypis.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h5 id="Pavyzdys:"&gt;Pavyzdys:&lt;a class="anchor-link" href="https://damakubu.github.io/damakubu/lt/posts/se%20vs%20std/#Pavyzdys:"&gt;¶&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;Tarkim turim gazilijoną liniuočių.&lt;/p&gt;
+&lt;p&gt;Paimk atsitiktinai ir nepriklausomai 25 liniuotes,
+išmatuojam, jog vidurkis lygus 20 cm, o standartinis nuokrypis lygus $\sigma$ = 1 cm.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Esant gauso skirstiniui 68% duomenų patenka į $\pm 1$ cm intervalą aplink vidurkį.&lt;/p&gt;
+&lt;p&gt;Arba yra 95% tikimybė, jog atsitiktinai pasirinkta liniuotė bus nutolusi nuo vidurkio ne daugiau nei 2 cm.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Liniuočių vidurkio paklaida $\sqrt{25} = 5$, yra SE $= \frac{1}{5} = 0.2$ cm.&lt;/p&gt;
+&lt;p&gt;Išmatavę 100 liniuočių, tikėtina gausim labai artima vidurkį ~20cm,
+ir $\sigma$ beveik neturėtų pasikeisti toliau bus 1 cm.&lt;/p&gt;
+&lt;p&gt;Bet mūsų vidurkio paklaida $\sqrt{100} = 10$, bus mažesnė SE = 0.1cm.&lt;/p&gt;
+&lt;p&gt;$\sigma$ begaliniam duomenų limite priartėja konkrečią teigiamą vertę, bet SE tampa lygi 0.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Kitas pavyzdys turime vieną liniuotę ir ją matuojame gazilijoną kartų.
+Darydami prielaidą, jog neturime sisteminės paklaidos, liniuotės tikras ilgis bus vidurkis, o matavimai bus mūsų populiacija.&lt;/p&gt;
+&lt;p&gt;Ir nors matavimai skirsis, matuodami daug kartų eliminuosim atsitiktinę paklaidą.&lt;/p&gt;
+&lt;p&gt;Praktikoje, atsitiktinė paklaida matuojamo dydžio yra standartinė paklaida SE, dar padauginta stiudento koeficiento, todėl ją galima kiek norima sumažint eliminuoti išmatavus pakankamai daug kartų.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Nebūtinas normalusis skirstinys parametrams, pavyzdžiui, galima išmatuoti studentų amžių,
+cj standartinis nuokrypis ~5 metai. Bet vidurkis dėl studentų skaičiaus gali turėti labai mažą atsitiktinę paklaidą tarkim kelios dienos, dėl didelio studentų skaičiaus.&lt;/p&gt;
+&lt;p&gt;Beje jei po to matuosim visos žmonijos populiacijos amžių, tai gausim skirtingą ir standartinį nuokrypį ir vidurkį.
+Nes studentų imtis nėra atsitiktinė(netolygiai reprezentuoja visą populiaciją.)&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description><guid>https://damakubu.github.io/damakubu/lt/posts/se%20vs%20std/</guid><pubDate>Mon, 25 Sep 2023 21:00:00 GMT</pubDate></item></channel></rss>
