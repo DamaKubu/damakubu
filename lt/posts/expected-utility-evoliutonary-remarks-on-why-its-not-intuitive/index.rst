@@ -1,7 +1,7 @@
-.. title: Expected Utility evoliutonary remarks on why it's not intuitive
+.. title: Kodėl nesirenkame didesnės tikėtinos vertės, evoliucinės remarkos
 .. slug: expected-utility-evoliutonary-remarks-on-why-its-not-intuitive
 .. date: 2023-09-28 23:46:22 UTC+03:00
-.. tags: 
+.. tags: Evoliucija
 .. category: 
 .. link: 
 .. description: 
@@ -9,12 +9,14 @@
 
 On expected utility series of blogs.
 
-fuck ugly girl for certain or beautiful girl with 10% chance.
-Go for the beautiful girl bro. 
 
-Predictebly lose.
-anyway išgelbėti veina random žmogų for sure, yra blogiau negu mesti kauliuką ir tik su 1% sėkmės tikimybe bandyti išgelbėti 1000 žmonių. 
-Jeigu bandai maximizint realų žmonių kiekį antram atvejį, kartojant situaciją daug kartų vidutiniškai išgelbsti 10žmonių. 
+Kodėl nesirenkame pralaimėti.
+
+Išgelbėti veina random žmogų for sure, yra blogiau negu mesti kauliuką ir tik su 1% sėkmės tikimybe bandyti išgelbėti 1000 žmonių. 
+Jeigu bandai maksimalizuoti realų žmonių kiekį antram atvejį, kartojant situaciją daug kartų vidutiniškai išgelbsti 10žmonių. 
+
+.. TEASER_END
+
 
 Ir taip sutinku, tai etiškai remiantis vien bandymų maximalizuot išgelbėtas gyvybes yra teisingas pasirinkimas. Deja tas pasirinkimas nėra lengvai suderinimas su žmogaus išgyvenimu.
 Tarkim duodamas atlygis už išgelbėtą žmogų - 1kg duonos. 

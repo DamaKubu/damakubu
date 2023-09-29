@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://damakubu.github.io/damakubu/</loc>
-  <lastmod>2023-09-29T06:53:00Z</lastmod>
+  <lastmod>2023-09-29T07:40:00Z</lastmod>
  </url>
  <url>
   <loc>https://damakubu.github.io/damakubu/2023/</loc>
@@ -43,7 +43,11 @@
  </url>
  <url>
   <loc>https://damakubu.github.io/damakubu/lt/categories/</loc>
-  <lastmod>2023-09-28T20:40:00Z</lastmod>
+  <lastmod>2023-09-29T07:47:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://damakubu.github.io/damakubu/lt/categories/evoliucija/</loc>
+  <lastmod>2023-09-29T07:47:00Z</lastmod>
  </url>
  <url>
   <loc>https://damakubu.github.io/damakubu/lt/galleries/</loc>
