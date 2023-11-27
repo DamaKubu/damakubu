@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="lt">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Kelios mintys apie vieną iš pagrindinių evoliucinių mechanizmų genų dreifą.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Genų dreifas | DamaKubu</title>
+<link href="../../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<link href="../../../assets/css/ipython.min.css" rel="stylesheet" type="text/css">
+<link href="../../../assets/css/nikola_ipython.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS (lt)" hreflang="lt" href="../../rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (en)" hreflang="en" href="../../../rss.xml">
+<link rel="canonical" href="https://damakubu.github.io/damakubu/lt/posts/gen%C5%B3%20dreifas/">
+<!--[if lt IE 9]><script src="../../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Danielius Kundrotas">
+<link rel="prev" href="../expected-utility-evoliutonary-remarks-on-why-its-not-intuitive/" title="Kodėl nesirenkame didesnės tikėtinos vertės, evoliucinės remarkos" type="text/html">
+<meta property="og:site_name" content="DamaKubu">
+<meta property="og:title" content="Genų dreifas">
+<meta property="og:url" content="https://damakubu.github.io/damakubu/lt/posts/gen%C5%B3%20dreifas/">
+<meta property="og:description" content="Kelios mintys apie vieną iš pagrindinių evoliucinių mechanizmų genų dreifą.">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2023-11-25T22:04:07+02:00">
+<link rel="alternate" hreflang="en" href="../../../posts/gene-drift/">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Pereiti į pagrindinį turinį</a>
+
+<!-- Header and menu bar -->
+<div class="container">
+      <header class="blog-header py-3"><div class="row nbb-header align-items-center">
+          <div class="col-md-3 col-xs-2 col-sm-2" style="width: auto;">
+            <button class="navbar-toggler navbar-light bg-light nbb-navbar-toggler" type="button" data-toggle="collapse" data-target=".bs-nav-collapsible" aria-controls="bs-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse bs-nav-collapsible bootblog4-search-form-holder">
+                
+            </div>
+        </div>
+          <div class="col-md-6 col-xs-10 col-sm-10 bootblog4-brand" style="width: auto;">
+            <a class="navbar-brand blog-header-logo text-dark" href="../../">
+
+            <span id="blog-title">DamaKubu</span>
+        </a>
+          </div>
+            <div class="col-md-3 justify-content-end align-items-center bs-nav-collapsible collapse flex-collapse bootblog4-right-nav">
+            <nav class="navbar navbar-light bg-white"><ul class="navbar-nav bootblog4-right-nav">
+<li class="nav-item"><a href="../../../" rel="alternate" hreflang="en" class="nav-link">English</a></li>
+
+                    
+                    
+    
+    <li class="nav-item">
+    <a href="../gen%C5%B3%20dreifas/index.rst" id="sourcelink" class="nav-link">Pirminis tekstas</a>
+    </li>
+
+
+                    
+            </ul></nav>
+</div>
+    </div>
+</header><nav class="navbar navbar-expand-md navbar-light bg-white static-top"><div class="collapse navbar-collapse bs-nav-collapsible" id="bs-navbar">
+            <ul class="navbar-nav nav-fill d-flex w-100">
+<li class="nav-item">
+<a href="../../archive.html" class="nav-link">Archyvas</a>
+                </li>
+<li class="nav-item">
+<a href="../../categories/" class="nav-link">Žymės</a>
+                </li>
+<li class="nav-item">
+<a href="../../rss.xml" class="nav-link">RSS srautas</a>
+
+                
+            </li>
+</ul>
+</div>
+<!-- /.navbar-collapse -->
+</nav>
+</div>
+
+<div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        
+        
+        
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="../gen%C5%B3%20dreifas/" class="u-url">Genų dreifas</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
+                    Danielius Kundrotas
+            </span></p>
+            <p class="dateline">
+            <a href="../gen%C5%B3%20dreifas/" rel="bookmark">
+            <time class="published dt-published" datetime="2023-11-25T22:04:07+02:00" itemprop="datePublished" title="2023-11-25 22:04">2023-11-25 22:04</time></a>
+            </p>
+                <p class="commentline">
+    
+<a href="%7Blink%7D" onclick="this.href='/lt/posts/gen%C5%B3%20dreifas/'; this.target='_self';"><span class="IDCommentsReplace" style="display:none">cache/posts/gene-drift.html</span>
+<script>
+var idcomments_acct = '?';
+var idcomments_post_id = "cache/posts/gene-drift.html";
+var idcomments_post_url = "/lt/posts/gen%C5%B3%20dreifas/";
+</script><script src="https://www.intensedebate.com/js/genericLinkWrapperV2.js"></script></a>
+
+
+            
+        </p>
+<p class="sourceline"><a href="../gen%C5%B3%20dreifas/index.rst" class="sourcelink">Pirminis tekstas</a></p>
+
+        </div>
+        
+        <div class="metadata posttranslations translations">
+            <h3 class="posttranslations-intro">Taip pat turimas šiomis kalbomis:</h3>
+                <p><a href="../../../posts/gene-drift/" rel="alternate" hreflang="en">English</a></p>
+        </div>
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <nav class="contents alert alert-info pull-left" id="turinys" role="doc-toc"><p class="topic-title">Turinys</p>
+<ul class="simple">
+<li>
+<p><a class="reference internal" href="../gen%C5%B3%20dreifas/#evoliucijos-mechanizmai" id="toc-entry-1">Evoliucijos Mechanizmai</a></p>
+<ul>
+<li><p><a class="reference internal" href="../gen%C5%B3%20dreifas/#genu-tranzavimas" id="toc-entry-2">Genų tranzavimas</a></p></li>
+<li><p><a class="reference internal" href="../gen%C5%B3%20dreifas/#partnerio-pasirinkimas" id="toc-entry-3">Partnerio pasirinkimas</a></p></li>
+<li><p><a class="reference internal" href="../gen%C5%B3%20dreifas/#genu-dreifas" id="toc-entry-4">Genų dreifas</a></p></li>
+</ul>
+</li>
+<li>
+<p><a class="reference internal" href="../gen%C5%B3%20dreifas/#zaidimai-ir-klaidinanti-intuicija" id="toc-entry-5">Žaidimai ir klaidinanti intuicija.</a></p>
+<ul>
+<li><p><a class="reference internal" href="../gen%C5%B3%20dreifas/#purya-maiseliu-modelis" id="toc-entry-6">Purya(maišelių modelis):</a></p></li>
+<li><p><a class="reference internal" href="../gen%C5%B3%20dreifas/#kodel-intuityvus-modelis-neteisingas" id="toc-entry-7">Kodėl intuityvus modelis neteisingas?</a></p></li>
+<li><p><a class="reference internal" href="../gen%C5%B3%20dreifas/#kodel-sis-modelis-veikia-ir-lygiavertus-imties-emimui" id="toc-entry-8">Kodėl šis modelis veikia ir lygiavertus imties ėmimui</a></p></li>
+<li><p><a class="reference internal" href="../gen%C5%B3%20dreifas/#kuo-didesne-populiacija-tuo-genu-dreifo-reiskinys-yra-letesnis" id="toc-entry-9">Kuo didesnė populiacija, tuo genų dreifo reiškinys yra lėtesnis</a></p></li>
+<li><p><a class="reference internal" href="../gen%C5%B3%20dreifas/#apibendrinta-evoliucija" id="toc-entry-10">Apibendrinta Evoliucija</a></p></li>
+</ul>
+</li>
+<li>
+<p><a class="reference internal" href="../gen%C5%B3%20dreifas/#pabaigai" id="toc-entry-11">Pabaigai</a></p>
+<ul>
+<li><p><a class="reference internal" href="../gen%C5%B3%20dreifas/#saltiniai" id="toc-entry-12">Šaltiniai:</a></p></li>
+</ul>
+</li>
+</ul></nav><aside class="sidebar"><p class="sidebar-title">TLDR:</p>
+<p><em>Genų dreifas</em> - vienas iš pagrindinių evoliucijos mechanizmų. Atsiranda dėl atsitiktinumo, ryškiausiai pasireiškia mažose populiacijose, mažina genetinę įvairovę. Dėl jo populiacijoje įsitvirtina aleliai nebūtinai turintys adaptacinę naudą, gali būti net žalingi.</p>
+</aside><p>Šiuo metu turiu bio-evoliucijos kursą jame užtikau vieną smagų konceptuką - <em>genų dreifas</em>, ko pasekoje kardinaliai pasikeitė mano požiūris į evoliuciją.</p>
+<section id="evoliucijos-mechanizmai"><h2><a class="toc-backref" href="../gen%C5%B3%20dreifas/#toc-entry-1" role="doc-backlink">Evoliucijos Mechanizmai</a></h2>
+<p>Darvino <em>naturali atranka</em> yra vienintelis evoliucinis mechanizmas pastoviai keliantis organizmų adaptyvumą(fitness) <a class="footnote-reference brackets" href="../gen%C5%B3%20dreifas/#footnote-1" id="footnote-reference-1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a>. Didesnę tikimybę turi išgyventi tie kurie geriau prisitaikę prie aplinkos, per daug kartų individų prisitaikymas didėja.  Ji aplikuojama, kai</p>
+<blockquote>
+<ol class="arabic simple">
+<li><p>variacija</p></li>
+<li><p>paveldimumas</p></li>
+<li><p>adaptyvumas reikšmingas</p></li>
+</ol>
+</blockquote>
+<p>Bet yra daugelis kitų mechanizmų, kodėl genai išplinta populiacijoje.</p>
+<section id="genu-tranzavimas"><h3><a class="toc-backref" href="../gen%C5%B3%20dreifas/#toc-entry-2" role="doc-backlink">Genų tranzavimas</a></h3>
+<p>Genas A esantis fiziškai arti geno adaptyvumą keliančio geno B, tranzuoja per jį į populiaciją. Pvz.: Karvėse genas A atsakingas už daugiau pieno, o genas B už mažesnį vaisingumą. Dirbtinė žmonių atranka populiacijoje įtvirtiną A geną, bet su juo keliauja ir genas B mažinantis karvių vaisingumą <a class="footnote-reference brackets" href="../gen%C5%B3%20dreifas/#footnote-2" id="footnote-reference-2" role="doc-noteref"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></a>.</p>
+<p><br></p>
+</section><section id="partnerio-pasirinkimas"><h3><a class="toc-backref" href="../gen%C5%B3%20dreifas/#toc-entry-3" role="doc-backlink">Partnerio pasirinkimas</a></h3>
+<p>Vienos lyties sisteminis kažkokių savybių kitoje lytyje preferavimas veikia kaip atranka. Gamtoje įprastai, tai labiau daro viena lytis ir dažniausiai tai būna patelės, dėl ko dažnai patinėliai atrodo įspudingiau.
+(Įdomu, jog patelių preferuojamos savybęs nebūtinai didina patinėlių prisitaikomumą prie aplinkos).</p>
+<aside class="sidebar"><p>„Kai stebiu povo uodega mane supykina.“
+- 1860m. Darvinas <a class="footnote-reference brackets" href="../gen%C5%B3%20dreifas/#footnote-3" id="footnote-reference-3" role="doc-noteref"><span class="fn-bracket">[</span>3<span class="fn-bracket">]</span></a></p>
+</aside><figure class="align-center"><img alt="nuotrauka" src="../../../images/Peacock.jpg" style="width: 800px;"><figcaption><p>Povas bandantis suvilioti patelę.</p>
+</figcaption></figure></section><section id="genu-dreifas"><h3><a class="toc-backref" href="../gen%C5%B3%20dreifas/#toc-entry-4" role="doc-backlink">Genų dreifas</a></h3>
+<aside class="sidebar"><p class="sidebar-title">Martingalis ir Markovo procesas</p>
+<p>Puria urnos pavyzdys matematiškai yra <em>martingalis</em>, kuris apibrėžiamas taip:</p>
+<ul class="simple">
+<li><p>Martingalio vertė baigtinė esant baigtiniam laikui: <span class="math">\(\forall n, X_n &lt; \infty\)</span></p></li>
+<li><p>Martingalio tikėtiniausia vertė yra paskutinė stebėta vertė: <span class="math">\(\mathbb{E}[X_{n+1}|\{X_n, ..., X_{0}\}] = X_n\)</span></p></li>
+</ul>
+<p>Taip pat jis yra Markovo grandinė, nes neturi jokios atminties.</p>
+</aside><p>Dėl imties paklaidos kylantis atsitiktinio geno įsitvirtinimas populiacijoje.</p>
+<figure class="align-center"><img alt="/images/genudreifas.png" src="../../../images/genudreifas.png" style="width: 800px;"></figure><div class="line-block">
+<div class="line">
+<strong>Pavyzdys</strong>:</div>
+<div class="line">paimkime maišelį su 50 baltų ir 50 juodų rutuliukų.</div>
+<div class="line">Iš maišelio paimkime 10 rutuliukų tikėtina baltų ir juodų skaičius skirsis tarkim 3 ir 7.</div>
+<div class="line">Tada šia imties proporcija užpildykim naują maišiuką su 30 ir 70.</div>
+<div class="line">Vėl imkime 10 rutuliukų ir ištraukiam visus 10 juodų.</div>
+<div class="line">Betkokia nauja imtis visada duos juodus.</div>
+<div class="line">Tai yra rutuliukų populiacijoje įsitvirtino juodieji, nors neturi jokio adaptacinio pranašumo.</div>
+</div>
+<p><br></p>
+</section></section><section id="zaidimai-ir-klaidinanti-intuicija"><h2><a class="toc-backref" href="../gen%C5%B3%20dreifas/#toc-entry-5" role="doc-backlink">Žaidimai ir klaidinanti intuicija.</a></h2>
+<aside class="sidebar"><p class="sidebar-title">Aleliai</p>
+<p>Dėl chromosomų organizmai turi dvi versijas to paties geno - <em>alelius</em>.</p>
+<p>Kurią versija naudos organizmas priklausys nuo paties alelio, jei alelis <em>dominuojantis</em> tai jis ir pasireišks.
+Pavyzdžiui ruda akių spalvą koduoja dominuojantis alelis R, todėl rudakiai tėvai Rm gali turėti mėlynakius vaikus:</p>
+<p>(Rm + Rm) -&gt; (RR Rm mR mm).</p>
+<p>Mėlynakis bus tik mm, kiti vaikai (RR Rm mR) rudakiai.
+Mėlynos spalvos alelis m - <em>recesyvus</em> <a class="footnote-reference brackets" href="../gen%C5%B3%20dreifas/#footnote-4" id="footnote-reference-4" role="doc-noteref"><span class="fn-bracket">[</span>4<span class="fn-bracket">]</span></a> - pasireiškia, tik tada kai nėra dominuojančio.</p>
+<p>Beje mėlynakiai tėvai negali turėti rudakio vaiko:</p>
+<p>(mm + mm) -&gt; (mm mm mm mm)</p>
+</aside><p>Įdomu, jog tikimybė, kad ilgainiui alelis įsitvirtins populiacijoje yra lygiai pradinis alelio dažnis populiacijoje. <a class="footnote-reference brackets" href="../gen%C5%B3%20dreifas/#moran" id="footnote-reference-5" role="doc-noteref"><span class="fn-bracket">[</span>6<span class="fn-bracket">]</span></a> Tai yra jei 10% žmonių turi alelį A, tikimybė, jog jis įsitvirtins populiacijoje yra lygiai 10%.
+Man tai neintuityvu, <em>kodėl</em>? Tarkim imame imtį iš maišelio ir ištraukiam daugiau juodų rutuliukų. Pagal imties proporcija pripildom maišelį ir traukiam naują imtį, tikimybė jog ištrauksiu juodus rutuliukus tik padidėja. Tai yra procesas turėtų turėti kažkokį tai polinkį. Pabandysiu intuiciją patikrinti modeliuku:</p>
+<blockquote>
+<p>Metu nesimetrinę monetą iškristi herbui tikimybė p, o iškristi monetai tikimybė 1-p, kur p lygi alelių dažniui populiacijoje. Jeigu krenta herbas pakeliu alelių skaičių populiacijoje +1, jeigu moneta sumažinu -1.</p>
+</blockquote>
+<p>Galima įsivaisduot, jog individas miršta, o jo vieta užpildo kito atsitiktinai išrinkto individo kopja.</p>
+<div class="code"><pre class="code python"><a id="rest_code_718e16eb2f424573aac90ad1066ffe88-1" name="rest_code_718e16eb2f424573aac90ad1066ffe88-1" href="../gen%C5%B3%20dreifas/#rest_code_718e16eb2f424573aac90ad1066ffe88-1"></a><span class="n">N</span> <span class="o">=</span> <span class="mi">100</span>    <span class="c1">#populiacija</span>
+<a id="rest_code_718e16eb2f424573aac90ad1066ffe88-2" name="rest_code_718e16eb2f424573aac90ad1066ffe88-2" href="../gen%C5%B3%20dreifas/#rest_code_718e16eb2f424573aac90ad1066ffe88-2"></a><span class="n">b</span> <span class="o">=</span> <span class="mi">25</span>     <span class="c1">#pradinis alelių skaičius populiacijoje</span>
+<a id="rest_code_718e16eb2f424573aac90ad1066ffe88-3" name="rest_code_718e16eb2f424573aac90ad1066ffe88-3" href="../gen%C5%B3%20dreifas/#rest_code_718e16eb2f424573aac90ad1066ffe88-3"></a>
+<a id="rest_code_718e16eb2f424573aac90ad1066ffe88-4" name="rest_code_718e16eb2f424573aac90ad1066ffe88-4" href="../gen%C5%B3%20dreifas/#rest_code_718e16eb2f424573aac90ad1066ffe88-4"></a><span class="n">random</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="n">MAX_LENGTH</span><span class="p">)</span>
+<a id="rest_code_718e16eb2f424573aac90ad1066ffe88-5" name="rest_code_718e16eb2f424573aac90ad1066ffe88-5" href="../gen%C5%B3%20dreifas/#rest_code_718e16eb2f424573aac90ad1066ffe88-5"></a>
+<a id="rest_code_718e16eb2f424573aac90ad1066ffe88-6" name="rest_code_718e16eb2f424573aac90ad1066ffe88-6" href="../gen%C5%B3%20dreifas/#rest_code_718e16eb2f424573aac90ad1066ffe88-6"></a><span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">random</span><span class="p">:</span>
+<a id="rest_code_718e16eb2f424573aac90ad1066ffe88-7" name="rest_code_718e16eb2f424573aac90ad1066ffe88-7" href="../gen%C5%B3%20dreifas/#rest_code_718e16eb2f424573aac90ad1066ffe88-7"></a>    <span class="k">if</span> <span class="n">b</span> <span class="o">==</span> <span class="n">N</span> <span class="ow">or</span> <span class="n">b</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+<a id="rest_code_718e16eb2f424573aac90ad1066ffe88-8" name="rest_code_718e16eb2f424573aac90ad1066ffe88-8" href="../gen%C5%B3%20dreifas/#rest_code_718e16eb2f424573aac90ad1066ffe88-8"></a>        <span class="k">break</span>
+<a id="rest_code_718e16eb2f424573aac90ad1066ffe88-9" name="rest_code_718e16eb2f424573aac90ad1066ffe88-9" href="../gen%C5%B3%20dreifas/#rest_code_718e16eb2f424573aac90ad1066ffe88-9"></a>
+<a id="rest_code_718e16eb2f424573aac90ad1066ffe88-10" name="rest_code_718e16eb2f424573aac90ad1066ffe88-10" href="../gen%C5%B3%20dreifas/#rest_code_718e16eb2f424573aac90ad1066ffe88-10"></a>    <span class="k">elif</span> <span class="n">w</span> <span class="o">&lt;</span> <span class="n">b</span><span class="o">/</span><span class="n">N</span><span class="p">:</span>
+<a id="rest_code_718e16eb2f424573aac90ad1066ffe88-11" name="rest_code_718e16eb2f424573aac90ad1066ffe88-11" href="../gen%C5%B3%20dreifas/#rest_code_718e16eb2f424573aac90ad1066ffe88-11"></a>        <span class="n">b</span><span class="o">+=</span><span class="mi">1</span>      <span class="c1">#pasirenka šitą su tikimybe  b/N</span>
+<a id="rest_code_718e16eb2f424573aac90ad1066ffe88-12" name="rest_code_718e16eb2f424573aac90ad1066ffe88-12" href="../gen%C5%B3%20dreifas/#rest_code_718e16eb2f424573aac90ad1066ffe88-12"></a>    <span class="k">else</span><span class="p">:</span>
+<a id="rest_code_718e16eb2f424573aac90ad1066ffe88-13" name="rest_code_718e16eb2f424573aac90ad1066ffe88-13" href="../gen%C5%B3%20dreifas/#rest_code_718e16eb2f424573aac90ad1066ffe88-13"></a>        <span class="n">b</span><span class="o">-=</span><span class="mi">1</span>      <span class="c1">#pasirenka šitą su tikimybe 1 - b/N</span>
+</pre></div>
+<figure class="align-center"><img alt="/images/manomodelis1.png" src="../../../images/manomodelis1.png" style="width: 800px;"><figcaption><p>Matome, jog veikia kažkokia stuma išstumianti alelį į kraštą( suteikianti atsitiktiniam jūdėjimui eksponentės pavidalą).</p>
+</figcaption></figure><figure class="align-center"><img alt="/images/sigmoide.png" src="../../../images/sigmoide.png" style="width: 800px;"><figcaption><p>X ašyje pradinis alelio dažnis populiacijoje b, o y ašyje tikimybė, jog jis įsitvirtinis populiacijoje.
+Pradžioje alelį turi pusė populiacijos.
+Gavau gražią sigmoidę, bet teiginys nepasitvirtino! Gi tikėjomės gražios tiesės!</p>
+</figcaption></figure><section id="purya-maiseliu-modelis"><h3><a class="toc-backref" href="../gen%C5%B3%20dreifas/#toc-entry-6" role="doc-backlink">Purya(maišelių modelis):</a></h3>
+<p>Pabandykime implementuoti jau minėta maišelių pavyzdį:</p>
+<div class="code"><pre class="code python"><a id="rest_code_fb66643d3ba04b0ab72a3f6376b7034f-1" name="rest_code_fb66643d3ba04b0ab72a3f6376b7034f-1" href="../gen%C5%B3%20dreifas/#rest_code_fb66643d3ba04b0ab72a3f6376b7034f-1"></a><span class="c1"># maišelių algoritmas</span>
+<a id="rest_code_fb66643d3ba04b0ab72a3f6376b7034f-2" name="rest_code_fb66643d3ba04b0ab72a3f6376b7034f-2" href="../gen%C5%B3%20dreifas/#rest_code_fb66643d3ba04b0ab72a3f6376b7034f-2"></a>
+<a id="rest_code_fb66643d3ba04b0ab72a3f6376b7034f-3" name="rest_code_fb66643d3ba04b0ab72a3f6376b7034f-3" href="../gen%C5%B3%20dreifas/#rest_code_fb66643d3ba04b0ab72a3f6376b7034f-3"></a><span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">MAX_LENGTH</span><span class="p">):</span>
+<a id="rest_code_fb66643d3ba04b0ab72a3f6376b7034f-4" name="rest_code_fb66643d3ba04b0ab72a3f6376b7034f-4" href="../gen%C5%B3%20dreifas/#rest_code_fb66643d3ba04b0ab72a3f6376b7034f-4"></a>
+<a id="rest_code_fb66643d3ba04b0ab72a3f6376b7034f-5" name="rest_code_fb66643d3ba04b0ab72a3f6376b7034f-5" href="../gen%C5%B3%20dreifas/#rest_code_fb66643d3ba04b0ab72a3f6376b7034f-5"></a>   <span class="c1"># paimu 200 agentų imtį iš populiacijos masyvo</span>
+<a id="rest_code_fb66643d3ba04b0ab72a3f6376b7034f-6" name="rest_code_fb66643d3ba04b0ab72a3f6376b7034f-6" href="../gen%C5%B3%20dreifas/#rest_code_fb66643d3ba04b0ab72a3f6376b7034f-6"></a>
+<a id="rest_code_fb66643d3ba04b0ab72a3f6376b7034f-7" name="rest_code_fb66643d3ba04b0ab72a3f6376b7034f-7" href="../gen%C5%B3%20dreifas/#rest_code_fb66643d3ba04b0ab72a3f6376b7034f-7"></a>   <span class="n">imtis</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="n">populiacija</span><span class="p">,</span> <span class="mi">200</span><span class="p">)</span>
+<a id="rest_code_fb66643d3ba04b0ab72a3f6376b7034f-8" name="rest_code_fb66643d3ba04b0ab72a3f6376b7034f-8" href="../gen%C5%B3%20dreifas/#rest_code_fb66643d3ba04b0ab72a3f6376b7034f-8"></a>
+<a id="rest_code_fb66643d3ba04b0ab72a3f6376b7034f-9" name="rest_code_fb66643d3ba04b0ab72a3f6376b7034f-9" href="../gen%C5%B3%20dreifas/#rest_code_fb66643d3ba04b0ab72a3f6376b7034f-9"></a>   <span class="c1">#  padarau visą populiacija su imties proporcija</span>
+<a id="rest_code_fb66643d3ba04b0ab72a3f6376b7034f-10" name="rest_code_fb66643d3ba04b0ab72a3f6376b7034f-10" href="../gen%C5%B3%20dreifas/#rest_code_fb66643d3ba04b0ab72a3f6376b7034f-10"></a>
+<a id="rest_code_fb66643d3ba04b0ab72a3f6376b7034f-11" name="rest_code_fb66643d3ba04b0ab72a3f6376b7034f-11" href="../gen%C5%B3%20dreifas/#rest_code_fb66643d3ba04b0ab72a3f6376b7034f-11"></a>   <span class="n">Juodi</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">N</span> <span class="o">/</span> <span class="mi">200</span><span class="p">)</span> <span class="o">*</span> <span class="n">imtis</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+<a id="rest_code_fb66643d3ba04b0ab72a3f6376b7034f-12" name="rest_code_fb66643d3ba04b0ab72a3f6376b7034f-12" href="../gen%C5%B3%20dreifas/#rest_code_fb66643d3ba04b0ab72a3f6376b7034f-12"></a>   <span class="n">populiacija</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">concatenate</span><span class="p">((</span>
+<a id="rest_code_fb66643d3ba04b0ab72a3f6376b7034f-13" name="rest_code_fb66643d3ba04b0ab72a3f6376b7034f-13" href="../gen%C5%B3%20dreifas/#rest_code_fb66643d3ba04b0ab72a3f6376b7034f-13"></a>                 <span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="n">Juodi</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">int8</span><span class="p">),</span>
+<a id="rest_code_fb66643d3ba04b0ab72a3f6376b7034f-14" name="rest_code_fb66643d3ba04b0ab72a3f6376b7034f-14" href="../gen%C5%B3%20dreifas/#rest_code_fb66643d3ba04b0ab72a3f6376b7034f-14"></a>              <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">N</span><span class="o">-</span><span class="n">Juodi</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">int8</span><span class="p">)))</span>
+</pre></div>
+<figure class="align-center"><img alt="/images/purya.png" src="../../../images/purya.png" style="width: 800px;"><figcaption><p>Pradžioje alelį turi pusė populiacijos.</p>
+</figcaption></figure><figure class="align-center"><img alt="/images/purya2.png" src="../../../images/purya2.png" style="width: 800px;"><figcaption><p>Pradžioje alelį turi 25% populiacijos.</p>
+</figcaption></figure><figure class="align-center"><img alt="/images/purya3.png" src="../../../images/purya3.png" style="width: 800px;"><figcaption><p>Na, o paleidus maišelių algoritmą su įvariais pradiniais alelių kiekiais populiacijoje ir skaičiuojant, kiek alelių įsitvirtino, o kiek išnyko, išties gauname gražią tiesę. Neveikiant kitiems evoliuciniams mechanizmas, jei pradinėje populiacijoje 10% narių turėjo garbanių geną, tai tikimybė, jog praėjus pakankamai laikui visi turės garbanių geną yra 10%.</p>
+</figcaption></figure></section><section id="kodel-intuityvus-modelis-neteisingas"><h3><a class="toc-backref" href="../gen%C5%B3%20dreifas/#toc-entry-7" role="doc-backlink">Kodėl intuityvus modelis neteisingas?</a></h3>
+<blockquote>
+<ol class="arabic">
+<li>
+<p><strong>Hipotezė</strong> pagal pirmąjį modelį miršta nebetkoks individas, o <strong>neturintis alelio</strong> tada jį pakeičia turintis arba neturintis. Tad vyksta sistemingas mažinanimas individų neturinčių alelio, tai ir būtų ta pirmame grafike stebėta nepaiškinta <em>stuma</em> suteikianti atsitiktiniam judėjimui eksponentiškės formą.</p>
+<blockquote>
+<ul class="simple">
+<li><p>Bet tada pirmas grafikas turėtų būti nesimetrinis, t.y. lenktis labiau į vieną pusę. Visgi judėjimai atrodo simetriniai.</p></li>
+</ul>
+</blockquote>
+</li>
+</ol>
+</blockquote>
+<p>Na vistiek patestuokim, kas jei idėsim papildomą atsitiktinumą renkantis mirštantį individą:</p>
+<div class="code"><pre class="code python"><a id="rest_code_1ecb5b28698e4915b646e1da71ac2386-1" name="rest_code_1ecb5b28698e4915b646e1da71ac2386-1" href="../gen%C5%B3%20dreifas/#rest_code_1ecb5b28698e4915b646e1da71ac2386-1"></a><span class="n">N</span> <span class="o">=</span> <span class="mi">42</span><span class="o">**</span><span class="mi">2</span>    <span class="c1">#populiacija</span>
+<a id="rest_code_1ecb5b28698e4915b646e1da71ac2386-2" name="rest_code_1ecb5b28698e4915b646e1da71ac2386-2" href="../gen%C5%B3%20dreifas/#rest_code_1ecb5b28698e4915b646e1da71ac2386-2"></a><span class="n">b</span> <span class="o">=</span> <span class="n">N</span><span class="o">/</span><span class="mi">2</span>      <span class="c1">#pradinis alelių skaičius populiacijoje</span>
+<a id="rest_code_1ecb5b28698e4915b646e1da71ac2386-3" name="rest_code_1ecb5b28698e4915b646e1da71ac2386-3" href="../gen%C5%B3%20dreifas/#rest_code_1ecb5b28698e4915b646e1da71ac2386-3"></a>
+<a id="rest_code_1ecb5b28698e4915b646e1da71ac2386-4" name="rest_code_1ecb5b28698e4915b646e1da71ac2386-4" href="../gen%C5%B3%20dreifas/#rest_code_1ecb5b28698e4915b646e1da71ac2386-4"></a><span class="n">random</span>  <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="n">MAX_LENGTH</span><span class="p">)</span>
+<a id="rest_code_1ecb5b28698e4915b646e1da71ac2386-5" name="rest_code_1ecb5b28698e4915b646e1da71ac2386-5" href="../gen%C5%B3%20dreifas/#rest_code_1ecb5b28698e4915b646e1da71ac2386-5"></a><span class="n">random2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="n">MAX_LENGTH</span><span class="p">)</span>
+<a id="rest_code_1ecb5b28698e4915b646e1da71ac2386-6" name="rest_code_1ecb5b28698e4915b646e1da71ac2386-6" href="../gen%C5%B3%20dreifas/#rest_code_1ecb5b28698e4915b646e1da71ac2386-6"></a>
+<a id="rest_code_1ecb5b28698e4915b646e1da71ac2386-7" name="rest_code_1ecb5b28698e4915b646e1da71ac2386-7" href="../gen%C5%B3%20dreifas/#rest_code_1ecb5b28698e4915b646e1da71ac2386-7"></a><span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">random</span><span class="p">,</span> <span class="n">random2</span><span class="p">):</span>
+<a id="rest_code_1ecb5b28698e4915b646e1da71ac2386-8" name="rest_code_1ecb5b28698e4915b646e1da71ac2386-8" href="../gen%C5%B3%20dreifas/#rest_code_1ecb5b28698e4915b646e1da71ac2386-8"></a>
+<a id="rest_code_1ecb5b28698e4915b646e1da71ac2386-9" name="rest_code_1ecb5b28698e4915b646e1da71ac2386-9" href="../gen%C5%B3%20dreifas/#rest_code_1ecb5b28698e4915b646e1da71ac2386-9"></a>    <span class="k">if</span> <span class="n">b</span> <span class="o">==</span> <span class="n">N</span> <span class="ow">or</span> <span class="n">b</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+<a id="rest_code_1ecb5b28698e4915b646e1da71ac2386-10" name="rest_code_1ecb5b28698e4915b646e1da71ac2386-10" href="../gen%C5%B3%20dreifas/#rest_code_1ecb5b28698e4915b646e1da71ac2386-10"></a>        <span class="k">break</span>
+<a id="rest_code_1ecb5b28698e4915b646e1da71ac2386-11" name="rest_code_1ecb5b28698e4915b646e1da71ac2386-11" href="../gen%C5%B3%20dreifas/#rest_code_1ecb5b28698e4915b646e1da71ac2386-11"></a>
+<a id="rest_code_1ecb5b28698e4915b646e1da71ac2386-12" name="rest_code_1ecb5b28698e4915b646e1da71ac2386-12" href="../gen%C5%B3%20dreifas/#rest_code_1ecb5b28698e4915b646e1da71ac2386-12"></a>    <span class="k">elif</span> <span class="n">w</span> <span class="o">&lt;</span> <span class="n">b</span><span class="o">/</span><span class="n">N</span><span class="p">:</span>
+<a id="rest_code_1ecb5b28698e4915b646e1da71ac2386-13" name="rest_code_1ecb5b28698e4915b646e1da71ac2386-13" href="../gen%C5%B3%20dreifas/#rest_code_1ecb5b28698e4915b646e1da71ac2386-13"></a>        <span class="k">if</span> <span class="n">w2</span><span class="o">&gt;</span> <span class="n">b</span><span class="o">/</span><span class="n">N</span><span class="p">:</span>
+<a id="rest_code_1ecb5b28698e4915b646e1da71ac2386-14" name="rest_code_1ecb5b28698e4915b646e1da71ac2386-14" href="../gen%C5%B3%20dreifas/#rest_code_1ecb5b28698e4915b646e1da71ac2386-14"></a>            <span class="n">b</span><span class="o">+=</span><span class="mi">1</span>
+<a id="rest_code_1ecb5b28698e4915b646e1da71ac2386-15" name="rest_code_1ecb5b28698e4915b646e1da71ac2386-15" href="../gen%C5%B3%20dreifas/#rest_code_1ecb5b28698e4915b646e1da71ac2386-15"></a>
+<a id="rest_code_1ecb5b28698e4915b646e1da71ac2386-16" name="rest_code_1ecb5b28698e4915b646e1da71ac2386-16" href="../gen%C5%B3%20dreifas/#rest_code_1ecb5b28698e4915b646e1da71ac2386-16"></a>    <span class="k">else</span><span class="p">:</span>
+<a id="rest_code_1ecb5b28698e4915b646e1da71ac2386-17" name="rest_code_1ecb5b28698e4915b646e1da71ac2386-17" href="../gen%C5%B3%20dreifas/#rest_code_1ecb5b28698e4915b646e1da71ac2386-17"></a>        <span class="k">if</span> <span class="n">w2</span> <span class="o">&lt;</span> <span class="n">b</span><span class="o">/</span><span class="n">N</span><span class="p">:</span>
+<a id="rest_code_1ecb5b28698e4915b646e1da71ac2386-18" name="rest_code_1ecb5b28698e4915b646e1da71ac2386-18" href="../gen%C5%B3%20dreifas/#rest_code_1ecb5b28698e4915b646e1da71ac2386-18"></a>            <span class="n">b</span><span class="o">-=</span><span class="mi">1</span>
+</pre></div>
+<figure class="align-center"><img alt="/images/modifikuotas1.png" src="../../../images/modifikuotas1.png" style="width: 800px;"><figcaption><p>Išties gauname labiau tai ką norėjome.</p>
+</figcaption></figure><p><br></p>
+</section><section id="kodel-sis-modelis-veikia-ir-lygiavertus-imties-emimui"><h3><a class="toc-backref" href="../gen%C5%B3%20dreifas/#toc-entry-8" role="doc-backlink">Kodėl šis modelis veikia ir lygiavertus imties ėmimui</a></h3>
+<figure class="align-center"><img alt="/images/fuckthis.png" src="../../../images/fuckthis.png" style="width: 800px;"></figure><div class="line-block">
+<div class="line">Paaiškinimas: $w, w_2$ yra atsitiktiniai skaičiukai iš to paties simetrinio skirstinio, o $P = b/N$ dažnis.</div>
+<div class="line">Viršuje pavaizduotame pavyzdyje: pasirenku juodą ir pakeičiu baltu rutuliuku.</div>
+<div class="line">Bet tada padidėja tikimybė, jog sekantį traukimą pasirinksiu baltą ir pakeisiu juodu.</div>
+</div>
+<p><br></p>
+<p>Metam nesimetrinę monetą ir renkamės juodą arba baltą rutuliuką, pasirinkta rutuliuką pakeičiam dar kartą mesdami nesimetrinę monetą juodu($p$) arba baltu($1-p$) rutuliuku. Nors tikimybės pasirinkti juoda ar baltą rutuliuką skiriasi, bet kadangi yra du lygūs metimai, jie vienas kitą išbalansuoja.</p>
+<div class="line-block">
+<div class="line">Padidinti populiacija vienu juodu rutuliuku: turime pirma ištraukti baltą $p$, o po to ištraukti juodą $1-p$.</div>
+<div class="line">Sumažinti populiacija vienu juodu rutuliuku turime pirma ištraukti juodą $p-1$, o po to ištraukti juodą $p$.</div>
+</div>
+<p><br></p>
+<p>Matematiškai, kadangi $w$ lygiavertis $w_2$, tai tikimybė būti didesniem ar mažesniem už p lygiai tokia pati.</p>
+<div class="math">
+\begin{equation*}
+\mathbb{P}[w_2&gt;p] = \mathbb{P}[w&gt;p]
+\end{equation*}
+</div>
+<div class="math">
+\begin{equation*}
+\mathbb{P}[w_2&lt;p] = \mathbb{P}[w&lt;p]
+\end{equation*}
+</div>
+<p>O iš to galime išvesti, jog tikimybė padidinti populiacija vienu baltu arba vienu juodu rutuliuku yra lygi:</p>
+<div class="math">
+\begin{equation*}
+\mathbb{P}[b++] = \mathbb{P}[w&gt;p]\mathbb{P}[w_2&lt;p] = \mathbb{P}[w_2&gt;p] = \mathbb{P}[w&lt;p] = \mathbb{P}[b--]
+\end{equation*}
+</div>
+</section><section id="kuo-didesne-populiacija-tuo-genu-dreifo-reiskinys-yra-letesnis"><h3><a class="toc-backref" href="../gen%C5%B3%20dreifas/#toc-entry-9" role="doc-backlink">Kuo didesnė populiacija, tuo genų dreifo reiškinys yra lėtesnis</a></h3>
+<p>Kviečiu pačius pabandyti patikrintį sekanti genų dreifo teiginį:
+Tikėtiniausias laikas reikalingas įsitvirtinti aleliui tiesiogiai proporcingas populiacijos dydžiui: <span class="math">\(\mathbb{E}[T] \propto N\)</span>.</p>
+<figure class="align-center"><img alt="/images/genudreifas2.png" src="../../../images/genudreifas2.png" style="width: 700px;"><figcaption><p>Šaltinis vikipedija: <a class="reference external" href="https://en.wikipedia.org/wiki/Genetic_drift">https://en.wikipedia.org/wiki/Genetic_drift</a></p>
+</figcaption></figure></section><section id="apibendrinta-evoliucija"><h3><a class="toc-backref" href="../gen%C5%B3%20dreifas/#toc-entry-10" role="doc-backlink">Apibendrinta Evoliucija</a></h3>
+<aside class="sidebar"><p class="sidebar-title">Genų pernešimas</p>
+<p>Dabartinis didėjantis globalumas tikėtina ateina iš lengvesnės informacijos perdavimo(lengvo keliavimo) biologiškai šis mechanizmas vadinamas "genų pernešimo"(tarp izoliuotų populiacijų, individai perneša kultūrines idėjas), kas automatiškai homogenina pasaulio kultūrą.</p>
+</aside><p><br></p>
+<p>Taikant apibendrintą evoliuciją galima iškart naudotis genų dreifo sąvoka,
+atsakant ir į nebiologinius klausimus tokius kaip - „kodėl dauguma europiečių krikščionys?“</p>
+<blockquote>
+<p>Genų dreifo neužtenka <a class="footnote-reference brackets" href="../gen%C5%B3%20dreifas/#zaratrusta" id="footnote-reference-6" role="doc-noteref"><span class="fn-bracket">[</span>7<span class="fn-bracket">]</span></a>, darant prielaida, jog žmonės gyvena apie 40 metų ir savo religijos nekeičia. Praėjo vos <span class="math">\(\approx 50\)</span> kartų nuo jėzaus gimimo, o agentų skaičius milijono eilės. Tad genų dreifas kaip vienintelis apibendrintos evoliucijos veiksnys nebūtų spėjęs taip stipriai suvienodinti europiečių.</p>
+</blockquote>
+</section></section><section id="pabaigai"><h2><a class="toc-backref" href="../gen%C5%B3%20dreifas/#toc-entry-11" role="doc-backlink">Pabaigai</a></h2>
+<p>Siūlau patiems išbandyti tyrimu pagrįstą simuliacija <a class="footnote-reference brackets" href="../gen%C5%B3%20dreifas/#edu" id="footnote-reference-7" role="doc-noteref"><span class="fn-bracket">[</span>5<span class="fn-bracket">]</span></a> <a class="reference external" href="https://cartwrig.ht/apps/genie/">https://cartwrig.ht/apps/genie/</a> kuri padės perprasti genų driftą.</p>
+<p>Simuliacijos ir chaoso kodas, bei BUS užrašai: <a class="reference external" href="https://github.com/DamaKubu/bioevoliucija/">https://github.com/DamaKubu/bioevoliucija/</a></p>
+<section id="saltiniai"><h3><a class="toc-backref" href="../gen%C5%B3%20dreifas/#toc-entry-12" role="doc-backlink">Šaltiniai:</a></h3>
+<aside class="footnote-list brackets"><aside class="footnote brackets" id="footnote-1" role="doc-footnote"><span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="../gen%C5%B3%20dreifas/#footnote-reference-1">1</a><span class="fn-bracket">]</span></span>
+<p><a class="reference external" href="https://www.nature.com/scitable/knowledge/library/natural-selection-genetic-drift-and-gene-flow-15186648/?ref=scienceandpandas.com">https://www.nature.com/scitable/knowledge/library/natural-selection-genetic-drift-and-gene-flow-15186648/?ref=scienceandpandas.com</a></p>
+<p>Anglų kalba trumpas skaitinėlis ta pačia tema, šiek tiek iš kitos pusės ir detaliau.</p>
+</aside><aside class="footnote brackets" id="footnote-2" role="doc-footnote"><span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="../gen%C5%B3%20dreifas/#footnote-reference-2">2</a><span class="fn-bracket">]</span></span>
+<p>Iš bio-evoliucijos BUS'o paskaitos.</p>
+</aside><aside class="footnote brackets" id="footnote-3" role="doc-footnote"><span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="../gen%C5%B3%20dreifas/#footnote-reference-3">3</a><span class="fn-bracket">]</span></span>
+<p><a class="reference external" href="https://www.phaidon.com/agenda/photography/articles/2016/november/16/why-darwin-was-confused-by-birds/">https://www.phaidon.com/agenda/photography/articles/2016/november/16/why-darwin-was-confused-by-birds/</a></p>
+</aside><aside class="footnote brackets" id="footnote-4" role="doc-footnote"><span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="../gen%C5%B3%20dreifas/#footnote-reference-4">4</a><span class="fn-bracket">]</span></span>
+<p><a class="reference external" href="https://knowyourdna.com/are-blue-eyes-recessive/">https://knowyourdna.com/are-blue-eyes-recessive/</a></p>
+</aside><aside class="footnote brackets" id="edu" role="doc-footnote"><span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="../gen%C5%B3%20dreifas/#footnote-reference-7">5</a><span class="fn-bracket">]</span></span>
+<p>Genie: an interactive real-time simulation for teaching genetic drift
+<a class="reference external" href="https://evolution-outreach.biomedcentral.com/articles/10.1186/s12052-022-00161-7">https://evolution-outreach.biomedcentral.com/articles/10.1186/s12052-022-00161-7</a></p>
+</aside><aside class="footnote brackets" id="moran" role="doc-footnote"><span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="../gen%C5%B3%20dreifas/#footnote-reference-5">6</a><span class="fn-bracket">]</span></span>
+<p><a class="reference external" href="https://services.math.duke.edu/~rtd/cmodels/Moran.pdf">https://services.math.duke.edu/~rtd/cmodels/Moran.pdf</a></p>
+</aside><aside class="footnote brackets" id="zaratrusta" role="doc-footnote"><span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="../gen%C5%B3%20dreifas/#footnote-reference-6">7</a><span class="fn-bracket">]</span></span>
+<p>Draugas Zaratrusta į šitą atkreipė dėmesį, dėkui.</p>
+</aside></aside></section></section>
+</div>
+    <aside class="postpromonav"><nav><ul class="pager hidden-print">
+<li class="previous">
+                <a href="../expected-utility-evoliutonary-remarks-on-why-its-not-intuitive/" rel="prev" title="Kodėl nesirenkame didesnės tikėtinos vertės, evoliucinės remarkos">Ankstesnis įrašas</a>
+            </li>
+        </ul></nav></aside><section class="comments hidden-print"><h2>Komentarai</h2>
+        
+    
+<script>
+var idcomments_acct = '?';
+var idcomments_post_id = "cache/posts/gene-drift.html";
+var idcomments_post_url = "https://damakubu.github.io/damakubu/lt/posts/gen%C5%B3%20dreifas/";
+</script><span id="IDCommentsPostTitle" style="display:none"></span>
+<script src="https://www.intensedebate.com/js/genericCommentWrapperV2.js"></script></section><script src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script><script>
+                renderMathInElement(document.body,
+                    {
+                        
+delimiters: [
+    {left: "$$", right: "$$", display: true},
+    {left: "\\[", right: "\\]", display: true},
+    {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+    {left: "$", right: "$", display: false},
+    {left: "\\(", right: "\\)", display: false}
+]
+
+
+
+                    }
+                );
+            </script></article><!--End of body content--><footer id="footer">
+            Contents © 2023         <a href="mailto:kundrotasdanielius@gmail.com">Danielius Kundrotas</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            
+            
+        </footer>
+</div>
+</div>
+
+
+        <script src="../../../assets/js/all-nocdn.js"></script><script>
+    baguetteBox.run('div#content', {
+        ignoreClass: 'islink',
+        captions: function(element){var i=element.getElementsByTagName('img')[0];return i===undefined?'':i.alt;}});
+    </script>
+</body>
+</html>
