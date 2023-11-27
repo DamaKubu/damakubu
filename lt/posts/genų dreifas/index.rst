@@ -283,10 +283,10 @@ Matematiškai, kadangi $w$ lygiavertis $w_2$, tai tikimybė būti didesniem ar m
     
 
 
-O iš to galime išvesti, jog tikimybė padidinti populiacija vienu baltu arba vienu juodu rutuliuku yra lygi:
+O iš to galime išvesti, jog tikimybė padidinti populiacija vienu baltu :math:`\mathbb{P}[b++]` arba vienu juodu rutuliuku yra lygi:
    
 .. math::
-    \mathbb{P}[b++] = \mathbb{P}[w>p]\mathbb{P}[w_2<p] = \mathbb{P}[w_2>p] = \mathbb{P}[w<p] = \mathbb{P}[b--]
+    \mathbb{P}[b++] = \mathbb{P}[w>p]\mathbb{P}[w_2<p] = \mathbb{P}[w_2>p]\mathbb{P}[w<p] = \mathbb{P}[b--]
    
 Kuo didesnė populiacija, tuo genų dreifo reiškinys yra lėtesnis
 ---------------------------------------------------------------
