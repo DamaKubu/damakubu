@@ -7,5 +7,5 @@
 .. description: 
 .. type: text
 
- Get the crux from this little article:
+Get the crux from this little article:
 https://www.nature.com/scitable/knowledge/library/natural-selection-genetic-drift-and-gene-flow-15186648/?ref=scienceandpandas.com
