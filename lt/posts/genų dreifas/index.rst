@@ -1,7 +1,7 @@
 .. title: Genų dreifas
 .. slug: genų dreifas
 .. date: 2023-11-25 22:04:07 UTC+02:00
-.. tags: 
+.. tags: Evoliucija, DI
 .. category: 
 .. link: 
 .. description: Kelios mintys apie vieną iš pagrindinių evoliucinių mechanizmų genų dreifą.
@@ -212,12 +212,13 @@ Pabandykime implementuoti jau minėta maišelių pavyzdį:
 
     
 Kodėl intuityvus modelis neteisingas?
---------------------------------------------------------------
+-------------------------------------
+
     1. **Hipotezė** pagal pirmąjį modelį miršta nebetkoks individas, o **neturintis alelio** tada jį pakeičia turintis arba neturintis. Tad vyksta sistemingas mažinanimas individų neturinčių alelio, tai ir būtų ta pirmame grafike stebėta nepaiškinta *stuma* suteikianti atsitiktiniam judėjimui eksponentiškės formą.
 
         - Bet tada pirmas grafikas turėtų būti nesimetrinis, t.y. lenktis labiau į vieną pusę. Visgi judėjimai atrodo simetriniai. 
 
-Na vistiek patestuokim, kas jei idėsim papildomą atsitiktinumą renkantis mirštantį individą:
+Visgi pabandykim pamodifikuoti pradinį modelį, kas jei įdėsime papildomą atsitiktinumą renkantis mirštantį individą:
 
 .. code-block:: python
             
@@ -245,12 +246,14 @@ Na vistiek patestuokim, kas jei idėsim papildomą atsitiktinumą renkantis mir�
    :width: 800
    :align: center
    
-   Išties gauname labiau tai ką norėjome.
-
+   Rezultatas primena literatūroje pateiktą. Bet kodėl?
+   
 :raw-html:`<br />`
 
-Kodėl šis modelis veikia ir lygiavertus imties ėmimui
------------------------------------------------------
+
+
+Kodėl modifikuotas modelis yra lygiavertus imties ėmimui
+---------------------------------------------------------
 
 
 .. figure:: /images/fuckthis.png
@@ -258,16 +261,19 @@ Kodėl šis modelis veikia ir lygiavertus imties ėmimui
    :align: center
    
 |   Paaiškinimas: $w, w_2$ yra atsitiktiniai skaičiukai iš to paties simetrinio skirstinio, o $P = b/N$ dažnis. 
-|   Viršuje pavaizduotame pavyzdyje: pasirenku juodą ir pakeičiu baltu rutuliuku.
-|   Bet tada padidėja tikimybė, jog sekantį traukimą pasirinksiu baltą ir pakeisiu juodu.
+
 
 :raw-html:`<br />`
 
 
 Metam nesimetrinę monetą ir renkamės juodą arba baltą rutuliuką, pasirinkta rutuliuką pakeičiam dar kartą mesdami nesimetrinę monetą juodu($p$) arba baltu($1-p$) rutuliuku. Nors tikimybės pasirinkti juoda ar baltą rutuliuką skiriasi, bet kadangi yra du lygūs metimai, jie vienas kitą išbalansuoja.
 
-|  Padidinti populiacija vienu juodu rutuliuku: turime pirma ištraukti baltą $p$, o po to ištraukti juodą $1-p$.
-|  Sumažinti populiacija vienu juodu rutuliuku turime pirma ištraukti juodą $p-1$, o po to ištraukti juodą $p$.
+|  Padidinti populiacija vienu juodu rutuliuku:
+|  pirmiausia turime ištraukti baltą $p$, o po to ištraukti juodą $1-p$.
+
+|  Sumažinti populiacija vienu juodu rutuliuku:
+|  pirmiausia turime ištraukti juodą $p-1$, o po to ištraukti juodą $p$.
+
 
 :raw-html:`<br />`
 
@@ -283,11 +289,12 @@ Matematiškai, kadangi $w$ lygiavertis $w_2$, tai tikimybė būti didesniem ar m
     
 
 
-O iš to galime išvesti, jog tikimybė padidinti populiacija vienu baltu :math:`\mathbb{P}[b++]` arba vienu juodu rutuliuku yra lygi:
+Tada tikimybė padidinti populiacija vienu baltu :math:`\mathbb{P}[b++]` arba vienu juodu rutuliuku yra lygi:
    
 .. math::
     \mathbb{P}[b++] = \mathbb{P}[w>p]\mathbb{P}[w_2<p] = \mathbb{P}[w_2>p]\mathbb{P}[w<p] = \mathbb{P}[b--]
    
+
 Kuo didesnė populiacija, tuo genų dreifo reiškinys yra lėtesnis
 ---------------------------------------------------------------
 
@@ -353,3 +360,5 @@ Simuliacijos ir chaoso kodas, bei BUS užrašai: https://github.com/DamaKubu/bio
 .. [#moran] https://services.math.duke.edu/~rtd/cmodels/Moran.pdf
 
 .. [#zaratrusta] Draugas Zaratrusta į šitą atkreipė dėmesį, dėkui.
+
+

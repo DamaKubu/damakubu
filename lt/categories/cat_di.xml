@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DamaKubu (Įrašai apie DI)</title><link>https://damakubu.github.io/damakubu/</link><description></description><atom:link href="https://damakubu.github.io/damakubu/lt/categories/cat_di.xml" rel="self" type="application/rss+xml"></atom:link><language>lt</language><copyright>Contents © 2023 &lt;a href="mailto:kundrotasdanielius@gmail.com"&gt;Danielius Kundrotas&lt;/a&gt; </copyright><lastBuildDate>Thu, 30 Nov 2023 15:16:11 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bitės moka matematika?</title><link>https://damakubu.github.io/damakubu/lt/posts/bees-good-at-math/</link><dc:creator>Danielius Kundrotas</dc:creator><description>&lt;aside class="sidebar"&gt;
+&lt;p class="sidebar-title"&gt;Greitukas:&lt;/p&gt;
+&lt;p&gt;Bitės išvystė algoritmus, kuriuos galime nesunkiai matematiškai užrašyti. Tai, jog nesugebame užrašyti matematiškai algoritmų pagal kuriuos elgiamės, nėra įrodymas, jog tokių algoritmai neegzistuoja.&lt;/p&gt;
+&lt;/aside&gt;
+&lt;p&gt;Bitės, išties, labai primena šiuolaikinius krovininius lėktuvus:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Bitės gan tiksliai perteikia informacija apie atstumą iki žiedo. Į tai įskaičiuodamos net vėjo greitį, kad išskrendančios bitys nepasiimtu perteklinio kuro(medaus) ir pasiimtu pakankamai, kad sugebėtų nuskristi iki taikinio(nektaro).&lt;/p&gt;
+&lt;p&gt;Iš patirties mokykloje, žinau, jog didelei daliai 8-tokų, toks uždavinys būtų per sunkus.&lt;/p&gt;
+&lt;p&gt;Bet tai nereiškia, jog bitės moka matematika, geriau nei mielieji 8-tokai. Bitės „atrado“ algoritmą per daugelį kartų, ir jis joms veikia. Esu tikras, jog nesuvokia, bendro atstumo koncepto, bet turi siaurą suvokimą, kurio joms užtenka.
+Turiu omeny, net jei bitės ir moka &lt;em&gt;suskaičiuot&lt;/em&gt; atstumą iki žiedlapio, tai nereiškia, jog jos suvoktų atstumą iki mėnulio, su kuo 8-tokai visai neblogai tvarkosi.&lt;/p&gt;
+&lt;p&gt;Čia vyksta sugretinimas ir lyginimas skirtingų dalykų: abstraktaus mąstymo, bei nišinio adaptyvaus algoritmo turėjimo.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;aside class="sidebar"&gt;
+&lt;p&gt;„Moksle tiems patiems reiškiniams privalu daryti prielaida, jog jie kyla iš tų pačių priežąsčių.“
+- &lt;em&gt;Nepamenu!&lt;/em&gt; Lagranžas arba Laplasas&lt;/p&gt;
+&lt;/aside&gt;
+&lt;dl class="simple"&gt;
+&lt;dt&gt;Jei jau lyginame žmonės ir bites, reikėtų abiem naudoti tą patį apibrėžimą.&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;Jei imam abstraktų mąstymą, nors sunku pasakyti, kas tose bičių galvelėse vyksta, bet iš neuronų kiekio, tikėtina 8-tokai šias varžybas laimi.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Na, o iš algoritminio prisitaikymo, vėlgi, 8-tokas jausdamas pyktį, ar kokią kitą emociją. Pritaiko kur kas sudėtingesnį algoritmą, nei atstumo skaičiavimas.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;Tad abiem atvejais 8-tokai laimi.&lt;/p&gt;
+&lt;dl class="simple"&gt;
+&lt;dt&gt;Ką darome su bitėmis, būtų galima padaryti ir su mumis pačiais:&lt;/dt&gt;
+&lt;dd&gt;&lt;p&gt;Tarkime egzistuoja, ateivių rasė stebinti žmonių elgesį, jie  analogiškai galėtų pasakyti, jog žmonės labai gerai moka matematiką.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;aside class="sidebar"&gt;
+&lt;p&gt;„Žmonės, kaip ir kompai, gali būti &lt;em&gt;nulaužiami&lt;/em&gt;“.
+- Yuval Noah Harrari&lt;/p&gt;
+&lt;/aside&gt;
+&lt;p&gt;Žmonės elgiasi pagal kažkokius sudėtingus algoritmus(emocijas, kalbą, pojučius), nors patiems nelabai sekasi save atkoduot, stipriai protingesnei sistemai, tai turėtų būti įmanoma.
+Dėl ko DI sistemos kelia pavojų.&lt;/p&gt;</description><guid>https://damakubu.github.io/damakubu/lt/posts/bees-good-at-math/</guid><pubDate>Thu, 30 Nov 2023 14:30:57 GMT</pubDate></item></channel></rss>

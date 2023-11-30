@@ -15,7 +15,7 @@
  </url>
  <url>
   <loc>https://damakubu.github.io/damakubu/archive.html</loc>
-  <lastmod>2023-11-27T07:40:00Z</lastmod>
+  <lastmod>2023-11-30T15:09:00Z</lastmod>
  </url>
  <url>
   <loc>https://damakubu.github.io/damakubu/categories/</loc>
@@ -39,19 +39,36 @@
  </url>
  <url>
   <loc>https://damakubu.github.io/damakubu/lt/archive.html</loc>
-  <lastmod>2023-11-27T07:40:00Z</lastmod>
+  <lastmod>2023-11-30T15:09:00Z</lastmod>
  </url>
  <url>
   <loc>https://damakubu.github.io/damakubu/lt/categories/</loc>
-  <lastmod>2023-09-29T07:47:00Z</lastmod>
+  <lastmod>2023-11-30T15:09:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://damakubu.github.io/damakubu/lt/categories/cat_di/</loc>
+  <lastmod>2023-11-30T15:09:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://damakubu.github.io/damakubu/lt/categories/di/</loc>
+  <lastmod>2023-11-30T14:29:00Z</lastmod>
  </url>
  <url>
   <loc>https://damakubu.github.io/damakubu/lt/categories/evoliucija/</loc>
   <lastmod>2023-09-29T07:47:00Z</lastmod>
  </url>
  <url>
+  <loc>https://damakubu.github.io/damakubu/lt/categories/kultura/</loc>
+  <lastmod>2023-11-30T14:29:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://damakubu.github.io/damakubu/lt/galleries/</loc>
   <lastmod>2023-09-28T20:40:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://damakubu.github.io/damakubu/lt/posts/bees-good-at-math/</loc>
+  <lastmod>2023-11-30T15:09:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://damakubu.github.io/damakubu/posts/bees-good-at-math/" />
  </url>
  <url>
   <loc>https://damakubu.github.io/damakubu/lt/posts/expected-utility-evoliutonary-remarks-on-why-its-not-intuitive/</loc>
@@ -76,6 +93,11 @@
   <loc>https://damakubu.github.io/damakubu/lt/posts/se%20vs%20std/</loc>
   <lastmod>2023-09-29T07:15:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="https://damakubu.github.io/damakubu/posts/se%20vs%20std/" />
+ </url>
+ <url>
+  <loc>https://damakubu.github.io/damakubu/posts/bees-good-at-math/</loc>
+  <lastmod>2023-11-30T15:09:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="lt" href="https://damakubu.github.io/damakubu/lt/posts/bees-good-at-math/" />
  </url>
  <url>
   <loc>https://damakubu.github.io/damakubu/posts/expected-utility-evoliutonary-remarks-on-why-its-not-intuitive/</loc>

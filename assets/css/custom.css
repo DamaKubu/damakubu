@@ -1,1 +1,22 @@
 
+body {
+  background-color: #fefbd8;
+}
+
+div {
+  background-color: #ffffdb;
+}
+
+
+
+/* Sidebar */
+/* Move right. In a layout with fixed margins, */
+/* it can be moved into the margin.            */
+aside.sidebar {
+  width: 40%;
+  max-width: 26em;
+  min-width: 15em;
+  float: center;
+  clear: center;
+  background-color: #ffff80;
+}
