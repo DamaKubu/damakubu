@@ -303,7 +303,7 @@ Išvados
     
     * Religijos keitimas ir vaikystės pasitenkinimas koreliuoja $R = 0.33$ ir $p = 0.033$
     
-    * Moterų ir vyrų DNS rezultatai skiriasi tik silpnai 3 ir 4 hipotezę galim atmesti.
+    * Moterų ir vyrų DNS rezultatai skiriasi labai silpnai, tad 3 ir 4 hipotezę galim atmesti.
 
 
 
@@ -316,8 +316,13 @@ Išvados
 
 .. [2] Stoet, G. (2010). PsyToolkit - A software package for programming psychological experiments using Linux. Behavior Research Methods, 42(4), 1096-1104. Stoet, G. (2017). PsyToolkit: A novel web-based method for running online questionnaires and reaction-time experiments. Teaching of Psychology, 44(1), 24-31.
 
-   [3] Mano Youtube filmukas apie šį tyrimą: `filmukas < >`_ 
-   
-   [4] github atviri tyrimo duomenys: `Github <https://github.com/DamaKubu/Depresija_ir_Nuostatos>`_ 
+.. [3] Mano Youtube filmukas apie šį tyrimą: `filmukas < >`_ 
+
+.. [4] github atviri tyrimo duomenys: `Github <https://github.com/DamaKubu/Depresija_ir_Nuostatos>`_ 
+
+.. [5] Bei google collabas, kur galima pažaist su duomenimis nieko neinstaliuojant.
+    `tyrimo collabas <https://colab.research.google.com/drive/1Y70bVFKRjhydVF1sFl_ZOQ4QwlZDURDO?usp=sharing>`_
+
+
 
 
