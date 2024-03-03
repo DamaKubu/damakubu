@@ -16,7 +16,7 @@
 
 .. sidebar:: TLDR:
 
-   Hobininė psichologinės apklausos analizė. Tyriami teiginiai iš David D. burn knygos „Geros nuotaikos Vadovas“. Taip pat patvirtinama koreliacija tarp geros vaikystės ir religijos išlikimo. Tai yra vaikai sveikose šeimose perima tėvų verybes ir religiją. Gal vertingiau paklausyti mano `filmuko < >`_ apie šį tyrimą, jei norite suprast savo rezultatus 
+   Hobininė psichologinės apklausos analizė. Tyriami teiginiai iš David D. burn knygos „Geros nuotaikos Vadovas“. Taip pat patvirtinama koreliacija tarp geros vaikystės ir religijos išlikimo. Tai yra vaikai sveikose šeimose perima tėvų verybes ir religiją. Gal vertingiau paklausyti mano `filmuko <https://youtu.be/_U70RkF1AHw>`_ apie šį tyrimą, jei norite suprast savo rezultatus 
 
 
 
@@ -202,7 +202,7 @@ DNS
    
 .. sidebar:: intervalas
 
-   Standartinis nuokrypis, standartinė paklaida ir patikimumo intervalas yra susiję, bet atskiri dalykai `blog post <https://www.data-to-viz.com/caveat/error_bar.html>`_ 
+   Standartinis nuokrypis, standartinė paklaida ir patikimumo intervalas yra susiję, bet atskiri dalykai `blog post <https://www.data-to-viz.com/caveat/error_bar.html>`_. Standartinė paklaida, tai standartinis nuokrypis padalintas iš grupės skaičiaus šaknies. O patikimumo intervalas, tai standartinė paklaida padauginta iš stjudento koeficiento atitinkam imties skaičiui.
 
 .. figure:: /images/dns/DNS_voras.png
    :width: 800
