@@ -8,27 +8,15 @@
 .. type: text
 .. has_math: true
 
+.. class:: alert alert-info pull-left
+
+.. contents::
+
+
 
 .. sidebar:: TLDR:
 
    Hobininė psichologinės apklausos analizė. Tyriami teiginiai iš David D. burn knygos „Geros nuotaikos Vadovas“. Taip pat patvirtinama koreliacija tarp geros vaikystės ir religijos išlikimo. Tai yra vaikai sveikose šeimose perima tėvų verybes ir religiją. Gal vertingiau paklausyti mano `filmuko < >`_ apie šį tyrimą, jei norite suprast savo rezultatus 
-
-
-Turinys
-=========
-
-    1. Įvadas
-
-        * Disfunkcinės nuostatos skalė
-    
-        * Hipotezės
-    
-    2. Tyrimas
-    
-    3. Rezultatai
-        
-    
-    3. adaptyvumas reikšmingas
 
 
 
@@ -189,7 +177,7 @@ Pateiksiu abu grafikus:
    :width: 800
    :align: center
    
-   Pearsono koreliacija (kuo mažesnė tuo geriau.)
+   Disfunkcinės nuostatos versus laimingumo testo rezultatai. R, tai Pearsono koreliacija.
    
 
 
@@ -197,7 +185,7 @@ Pateiksiu abu grafikus:
    :width: 800
    :align: center
    
-   p reikšmingumas matrica(kuo mažesnė tuo geriau.)
+   Rezultatai, tarp vaikystės religijos keitimo ir pasitenkinimu vaikyste.
 
 
 DNS
@@ -220,7 +208,7 @@ DNS
    :width: 800
    :align: center
    
-   skritulinė vidurkio histogramą, nurodyti standartinės paklaidos intervalai.
+   Skritulinė vidurkio histogramą, nurodyti standartinės paklaidos intervalai.
 
 
 
@@ -303,7 +291,7 @@ Išvados
     
     * Religijos keitimas ir vaikystės pasitenkinimas koreliuoja $R = 0.33$ ir $p = 0.033$
     
-    * Moterų ir vyrų DNS rezultatai skiriasi labai silpnai, tad 3 ir 4 hipotezę galim atmesti.
+    * Moterų ir vyrų DNS rezultatai skiriasi labai silpnai.
 
 
 
@@ -316,7 +304,7 @@ Išvados
 
 .. [2] Stoet, G. (2010). PsyToolkit - A software package for programming psychological experiments using Linux. Behavior Research Methods, 42(4), 1096-1104. Stoet, G. (2017). PsyToolkit: A novel web-based method for running online questionnaires and reaction-time experiments. Teaching of Psychology, 44(1), 24-31.
 
-.. [3] Mano Youtube filmukas apie šį tyrimą: `filmukas < >`_ 
+.. [3] Mano Youtube filmukas apie šį tyrimą: `filmukas <https://youtu.be/_U70RkF1AHw>`_ 
 
 .. [4] github atviri tyrimo duomenys: `Github <https://github.com/DamaKubu/Depresija_ir_Nuostatos>`_ 
 

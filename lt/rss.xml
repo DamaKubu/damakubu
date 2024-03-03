@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DamaKubu</title><link>https://damakubu.github.io/damakubu/</link><description>Asmeninė svetainė/blogas</description><atom:link href="https://damakubu.github.io/damakubu/lt/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>lt</language><copyright>Contents © 2024 &lt;a href="mailto:kundrotasdanielius@gmail.com"&gt;Danielius Kundrotas&lt;/a&gt; </copyright><lastBuildDate>Sun, 03 Mar 2024 04:51:53 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Ego-tribe</title><link>https://damakubu.github.io/damakubu/lt/posts/ego-tribe/</link><dc:creator>Danielius Kundrotas</dc:creator><description>&lt;p&gt;Write your post here.&lt;/p&gt;</description><guid>https://damakubu.github.io/damakubu/lt/posts/ego-tribe/</guid><pubDate>Sun, 03 Mar 2024 00:13:21 GMT</pubDate></item><item><title>Disfunkcinės nuostatos ir laimingumas</title><link>https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/</link><dc:creator>Danielius Kundrotas</dc:creator><description>&lt;aside class="sidebar"&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DamaKubu</title><link>https://damakubu.github.io/damakubu/</link><description>Asmeninė svetainė/blogas</description><atom:link href="https://damakubu.github.io/damakubu/lt/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>lt</language><copyright>Contents © 2024 &lt;a href="mailto:kundrotasdanielius@gmail.com"&gt;Danielius Kundrotas&lt;/a&gt; </copyright><lastBuildDate>Sun, 03 Mar 2024 11:33:41 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Ego-tribe</title><link>https://damakubu.github.io/damakubu/lt/posts/ego-tribe/</link><dc:creator>Danielius Kundrotas</dc:creator><description>&lt;p&gt;Write your post here.&lt;/p&gt;</description><guid>https://damakubu.github.io/damakubu/lt/posts/ego-tribe/</guid><pubDate>Sun, 03 Mar 2024 00:13:21 GMT</pubDate></item><item><title>Disfunkcinės nuostatos ir laimingumas</title><link>https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/</link><dc:creator>Danielius Kundrotas</dc:creator><description>&lt;nav class="contents alert alert-info pull-left" id="turinys" role="doc-toc"&gt;
+&lt;p class="topic-title"&gt;Turinys&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class="reference internal" href="https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/#ivadas" id="toc-entry-1"&gt;Įvadas&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class="reference internal" href="https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/#motyvacija-kam-isvis-toki-tyrima-atlikti" id="toc-entry-2"&gt;Motyvacija, kam išvis tokį tyrimą atlikti?&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class="reference internal" href="https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/#disfunkciniu-nuostatu-skale-dns" id="toc-entry-3"&gt;Disfunkcinių nuostatų skalė (DNS)&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class="reference internal" href="https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/#hipotezes-sugalvotos-pries-renkant-duomenis" id="toc-entry-4"&gt;Hipotezės( sugalvotos prieš renkant duomenis )&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class="reference internal" href="https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/#duomenu-rinkimas" id="toc-entry-5"&gt;Duomenų rinkimas&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class="reference internal" href="https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/#analize" id="toc-entry-6"&gt;Analizė&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class="reference internal" href="https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/#dns" id="toc-entry-7"&gt;DNS&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class="reference internal" href="https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/#moterys-vs-vyrai" id="toc-entry-8"&gt;Moterys vs. vyrai&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class="reference internal" href="https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/#isvados" id="toc-entry-9"&gt;Išvados&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class="reference internal" href="https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/#saltiniai" id="toc-entry-10"&gt;Šaltiniai:&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;aside class="sidebar"&gt;
 &lt;p class="sidebar-title"&gt;TLDR:&lt;/p&gt;
 &lt;p&gt;Hobininė psichologinės apklausos analizė. Tyriami teiginiai iš David D. burn knygos „Geros nuotaikos Vadovas“. Taip pat patvirtinama koreliacija tarp geros vaikystės ir religijos išlikimo. Tai yra vaikai sveikose šeimose perima tėvų verybes ir religiją. Gal vertingiau paklausyti mano &lt;a href="https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/#system-message-1"&gt;&lt;span class="problematic" id="problematic-1"&gt;`filmuko &amp;lt; &amp;gt;`_&lt;/span&gt;&lt;/a&gt; apie šį tyrimą, jei norite suprast savo rezultatus&lt;/p&gt;
 &lt;/aside&gt;
-&lt;section id="turinys"&gt;
-&lt;h2&gt;Turinys&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;ol class="arabic"&gt;
-&lt;li&gt;&lt;p&gt;Įvadas&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;&lt;p&gt;Disfunkcinės nuostatos skalė&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Hipotezės&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Tyrimas&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Rezultatai&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ol class="arabic simple" start="3"&gt;
-&lt;li&gt;&lt;p&gt;adaptyvumas reikšmingas&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-&lt;/section&gt;
 &lt;section id="ivadas"&gt;
-&lt;h2&gt;Įvadas&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/#toc-entry-1" role="doc-backlink"&gt;Įvadas&lt;/a&gt;&lt;/h2&gt;
 &lt;section id="motyvacija-kam-isvis-toki-tyrima-atlikti"&gt;
-&lt;h3&gt;Motyvacija, kam išvis tokį tyrimą atlikti?&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/#toc-entry-2" role="doc-backlink"&gt;Motyvacija, kam išvis tokį tyrimą atlikti?&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Moksliniai tyrimai naudoją mokslinę kalbą, o mano tyrime tokios kalbos atsisakyta.
 Panašiai, kaip paleidus skruzdėle, eidami kiek kitokiu kelių rizikuojame atrasti kažką naujo, arba giliau patvirtinti esamus teiginius.&lt;/p&gt;
 &lt;aside class="sidebar"&gt;
@@ -39,7 +40,7 @@ Panašiai, kaip paleidus skruzdėle, eidami kiek kitokiu kelių rizikuojame atra
 &lt;p&gt;Ko pasekoje tyrimas išties unikalus, statistiškai tikslus ir itin nepriklausomas nuo įprastinių psichologų sisteminių paklaidų.&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id="disfunkciniu-nuostatu-skale-dns"&gt;
-&lt;h3&gt;Disfunkcinių nuostatų skalė (DNS)&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/#toc-entry-3" role="doc-backlink"&gt;Disfunkcinių nuostatų skalė (DNS)&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;DNS, tai David Burns, kognityvinės terapijos knygoje „Geros nuotaikos vadovas“ pristatyta apklausa, pagal kurią galima įsivertinti, savo daromas mąstymo klaidas, kurios gadina nuotaiką ir net vedą į depresiją. Taip pat knygoje pateikta ir depresijos apklausa, pagal kurią galima įsivertinti savo depresijos lygį.&lt;/p&gt;
 &lt;p&gt;Prieš du metus organiškai davus šias apklausas draugams radau esant koreliacijai tarp depresijos ir DNS. Visgi koreliacija buvo itin silpna, duomenys labai plačiai išsibarstę ir apklaustųjų skaičius išties mažytis 11 žmonių.&lt;/p&gt;
 &lt;figure class="align-center"&gt;
@@ -59,7 +60,7 @@ Panašiai, kaip paleidus skruzdėle, eidami kiek kitokiu kelių rizikuojame atra
 &lt;/blockquote&gt;
 &lt;/section&gt;
 &lt;section id="hipotezes-sugalvotos-pries-renkant-duomenis"&gt;
-&lt;h3&gt;Hipotezės( sugalvotos prieš renkant duomenis )&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/#toc-entry-4" role="doc-backlink"&gt;Hipotezės( sugalvotos prieš renkant duomenis )&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Matematikas Aleksandras užsiminė, jog daugelis nežino kas per daiktas yra nulinė hipotezė. Man atrodo, daugelis nežino išvis kas hipotezė yra, nes pats iki trečio fizikos kurso maišiau ją su spėjimu.
 Hipotezė, tai nėra spėjimas!
 &lt;em&gt;Hipotezė&lt;/em&gt; - falsifikuojamas pasaulio aiškinimas. &lt;em&gt;Falsifikuojamas&lt;/em&gt; - eksperimentu galima parodyti, jog hipotezė neteisinga. Pagal, kai kuriuos mokslo filosofus hipotezę galima tik nuneigti, bet niekad jos negalime įrodyti.&lt;/p&gt;
@@ -85,7 +86,7 @@ Mėgstamas humanitarų p reikšmingumas nurodo tikėtinumą, jog rezultatas mato
 &lt;/section&gt;
 &lt;/section&gt;
 &lt;section id="duomenu-rinkimas"&gt;
-&lt;h2&gt;Duomenų rinkimas&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/#toc-entry-5" role="doc-backlink"&gt;Duomenų rinkimas&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Duomenis rinkau ~3 mėnesius, norėjau surinkti bent 100 surinkau ~40.
 Naudojau psytoolkit &lt;a class="footnote-reference brackets" href="https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/#footnote-3" id="footnote-reference-1" role="doc-noteref"&gt;&lt;span class="fn-bracket"&gt;[&lt;/span&gt;3&lt;span class="fn-bracket"&gt;]&lt;/span&gt;&lt;/a&gt; online apklausai vykdyti, specialiai pritaikyta psichologiniams tyrimams.
 Patogu išimti duomenis. Bei yra minimalus interaktyvumas, pateikiau rezultatus tik atlikus testą.
@@ -110,7 +111,7 @@ Prižadėjau apklausoje, jog padarysiu analizę ir atsiųsiu rezultatus pasilygi
 &lt;/blockquote&gt;
 &lt;/section&gt;
 &lt;section id="analize"&gt;
-&lt;h2&gt;Analizė&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/#toc-entry-6" role="doc-backlink"&gt;Analizė&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Jaučiuosi atlikęs itin išsamią analizę. Manau esmė galima iš esmės pateikti koreliacijos matrica.&lt;/p&gt;
 &lt;p&gt;Pirmiausia pateiksiu svarbiausius rezultatus&lt;/p&gt;
 &lt;figure class="align-center"&gt;
@@ -129,17 +130,17 @@ Prižadėjau apklausoje, jog padarysiu analizę ir atsiųsiu rezultatus pasilygi
 &lt;figure class="align-center"&gt;
 &lt;img alt="/images/DNS_vs_SHS.png" src="https://damakubu.github.io/damakubu/images/DNS_vs_SHS.png" style="width: 800px;"&gt;
 &lt;figcaption&gt;
-&lt;p&gt;Pearsono koreliacija (kuo mažesnė tuo geriau.)&lt;/p&gt;
+&lt;p&gt;Disfunkcinės nuostatos versus laimingumo testo rezultatai. R, tai Pearsono koreliacija.&lt;/p&gt;
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;figure class="align-center"&gt;
 &lt;img alt="/images/religija_vs_vaikyste.png" src="https://damakubu.github.io/damakubu/images/religija_vs_vaikyste.png" style="width: 800px;"&gt;
 &lt;figcaption&gt;
-&lt;p&gt;p reikšmingumas matrica(kuo mažesnė tuo geriau.)&lt;/p&gt;
+&lt;p&gt;Rezultatai, tarp vaikystės religijos keitimo ir pasitenkinimu vaikyste.&lt;/p&gt;
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;section id="dns"&gt;
-&lt;h3&gt;DNS&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/#toc-entry-7" role="doc-backlink"&gt;DNS&lt;/a&gt;&lt;/h3&gt;
 &lt;figure class="align-center"&gt;
 &lt;img alt="/images/dns/koreliacijos_matrica_didelė.png" src="https://damakubu.github.io/damakubu/images/dns/koreliacijos_matrica_didel%C4%97.png" style="width: 800px;"&gt;
 &lt;figcaption&gt;
@@ -153,12 +154,12 @@ Prižadėjau apklausoje, jog padarysiu analizę ir atsiųsiu rezultatus pasilygi
 &lt;figure class="align-center"&gt;
 &lt;img alt="/images/dns/DNS_voras.png" src="https://damakubu.github.io/damakubu/images/dns/DNS_voras.png" style="width: 800px;"&gt;
 &lt;figcaption&gt;
-&lt;p&gt;skritulinė vidurkio histogramą, nurodyti standartinės paklaidos intervalai.&lt;/p&gt;
+&lt;p&gt;Skritulinė vidurkio histogramą, nurodyti standartinės paklaidos intervalai.&lt;/p&gt;
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/section&gt;
 &lt;section id="moterys-vs-vyrai"&gt;
-&lt;h3&gt;Moterys vs. vyrai&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/#toc-entry-8" role="doc-backlink"&gt;Moterys vs. vyrai&lt;/a&gt;&lt;/h3&gt;
 &lt;aside class="sidebar"&gt;
 &lt;p class="sidebar-title"&gt;Nulinė hipotezė&lt;/p&gt;
 &lt;p&gt;$H_0$ - moterų ir vyrų DNS nesiskiria.&lt;/p&gt;
@@ -207,17 +208,17 @@ Prižadėjau apklausoje, jog padarysiu analizę ir atsiųsiu rezultatus pasilygi
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id="isvados"&gt;
-&lt;h3&gt;Išvados&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/#toc-entry-9" role="doc-backlink"&gt;Išvados&lt;/a&gt;&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;p&gt;DNS ir subjektyvus laimingumas išties koreliuoja $R = 0.59$ ir $p = 0.00014$.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Religijos keitimas ir vaikystės pasitenkinimas koreliuoja $R = 0.33$ ir $p = 0.033$&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Moterų ir vyrų DNS rezultatai skiriasi labai silpnai, tad 3 ir 4 hipotezę galim atmesti.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Moterų ir vyrų DNS rezultatai skiriasi labai silpnai.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;/section&gt;
 &lt;section id="saltiniai"&gt;
-&lt;h3&gt;Šaltiniai:&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/#toc-entry-10" role="doc-backlink"&gt;Šaltiniai:&lt;/a&gt;&lt;/h3&gt;
 &lt;aside class="footnote-list brackets"&gt;
 &lt;aside class="footnote brackets" id="footnote-1" role="doc-footnote"&gt;
 &lt;span class="label"&gt;&lt;span class="fn-bracket"&gt;[&lt;/span&gt;1&lt;span class="fn-bracket"&gt;]&lt;/span&gt;&lt;/span&gt;
@@ -229,7 +230,7 @@ Prižadėjau apklausoje, jog padarysiu analizę ir atsiųsiu rezultatus pasilygi
 &lt;/aside&gt;
 &lt;aside class="footnote brackets" id="footnote-3" role="doc-footnote"&gt;
 &lt;span class="label"&gt;&lt;span class="fn-bracket"&gt;[&lt;/span&gt;&lt;a role="doc-backlink" href="https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/#footnote-reference-1"&gt;3&lt;/a&gt;&lt;span class="fn-bracket"&gt;]&lt;/span&gt;&lt;/span&gt;
-&lt;p&gt;Mano Youtube filmukas apie šį tyrimą: &lt;a href="https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/#system-message-2"&gt;&lt;span class="problematic" id="problematic-2"&gt;`filmukas &amp;lt; &amp;gt;`_&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Mano Youtube filmukas apie šį tyrimą: &lt;a class="reference external" href="https://youtu.be/_U70RkF1AHw"&gt;filmukas&lt;/a&gt;&lt;/p&gt;
 &lt;/aside&gt;
 &lt;aside class="footnote brackets" id="footnote-4" role="doc-footnote"&gt;
 &lt;span class="label"&gt;&lt;span class="fn-bracket"&gt;[&lt;/span&gt;4&lt;span class="fn-bracket"&gt;]&lt;/span&gt;&lt;/span&gt;
@@ -246,12 +247,8 @@ Prižadėjau apklausoje, jog padarysiu analizę ir atsiųsiu rezultatus pasilygi
 &lt;section class="system-messages"&gt;
 &lt;h2&gt;Docutils System Messages&lt;/h2&gt;
 &lt;aside class="system-message" id="system-message-1"&gt;
-&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;span class="docutils literal"&gt;&amp;lt;string&amp;gt;&lt;/span&gt;, line 4); &lt;em&gt;&lt;a href="https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/#problematic-1"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;span class="docutils literal"&gt;&amp;lt;string&amp;gt;&lt;/span&gt;, line 9); &lt;em&gt;&lt;a href="https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/#problematic-1"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Unknown target name: "filmuko &amp;lt; &amp;gt;".&lt;/p&gt;
-&lt;/aside&gt;
-&lt;aside class="system-message" id="system-message-2"&gt;
-&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;span class="docutils literal"&gt;&amp;lt;string&amp;gt;&lt;/span&gt;, line 309); &lt;em&gt;&lt;a href="https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/#problematic-2"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Unknown target name: "filmukas &amp;lt; &amp;gt;".&lt;/p&gt;
 &lt;/aside&gt;
 &lt;/section&gt;</description><guid>https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/</guid><pubDate>Sun, 03 Mar 2024 00:07:58 GMT</pubDate></item><item><title>Bitės moka matematika?</title><link>https://damakubu.github.io/damakubu/lt/posts/bees-good-at-math/</link><dc:creator>Danielius Kundrotas</dc:creator><description>&lt;aside class="sidebar"&gt;
 &lt;p class="sidebar-title"&gt;Greitukas:&lt;/p&gt;
