@@ -7,15 +7,19 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://damakubu.github.io/damakubu/</loc>
-  <lastmod>2023-09-29T07:40:00Z</lastmod>
+  <lastmod>2024-03-03T00:20:00Z</lastmod>
  </url>
  <url>
   <loc>https://damakubu.github.io/damakubu/2023/</loc>
   <lastmod>2023-09-28T20:42:00Z</lastmod>
  </url>
  <url>
+  <loc>https://damakubu.github.io/damakubu/2024/</loc>
+  <lastmod>2024-03-03T00:20:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://damakubu.github.io/damakubu/archive.html</loc>
-  <lastmod>2023-11-30T15:09:00Z</lastmod>
+  <lastmod>2024-03-03T00:20:00Z</lastmod>
  </url>
  <url>
   <loc>https://damakubu.github.io/damakubu/categories/</loc>
@@ -31,15 +35,19 @@
  </url>
  <url>
   <loc>https://damakubu.github.io/damakubu/lt/</loc>
-  <lastmod>2023-09-28T20:42:00Z</lastmod>
+  <lastmod>2024-03-03T00:20:00Z</lastmod>
  </url>
  <url>
   <loc>https://damakubu.github.io/damakubu/lt/2023/</loc>
   <lastmod>2023-09-28T20:42:00Z</lastmod>
  </url>
  <url>
+  <loc>https://damakubu.github.io/damakubu/lt/2024/</loc>
+  <lastmod>2024-03-03T00:20:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://damakubu.github.io/damakubu/lt/archive.html</loc>
-  <lastmod>2023-11-30T15:09:00Z</lastmod>
+  <lastmod>2024-03-03T00:20:00Z</lastmod>
  </url>
  <url>
   <loc>https://damakubu.github.io/damakubu/lt/categories/</loc>
@@ -71,6 +79,16 @@
   <xhtml:link rel="alternate" hreflang="en" href="https://damakubu.github.io/damakubu/posts/bees-good-at-math/" />
  </url>
  <url>
+  <loc>https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/</loc>
+  <lastmod>2024-03-03T00:20:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://damakubu.github.io/damakubu/posts/dns-and-happiness-survey-analysis/" />
+ </url>
+ <url>
+  <loc>https://damakubu.github.io/damakubu/lt/posts/ego-tribe/</loc>
+  <lastmod>2024-03-03T00:20:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://damakubu.github.io/damakubu/posts/ego-tribe/" />
+ </url>
+ <url>
   <loc>https://damakubu.github.io/damakubu/lt/posts/expected-utility-evoliutonary-remarks-on-why-its-not-intuitive/</loc>
   <lastmod>2023-09-28T20:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="https://damakubu.github.io/damakubu/posts/expected-utility-evoliutonary-remarks-on-why-its-not-intuitive/" />
@@ -98,6 +116,16 @@
   <loc>https://damakubu.github.io/damakubu/posts/bees-good-at-math/</loc>
   <lastmod>2023-11-30T15:09:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="lt" href="https://damakubu.github.io/damakubu/lt/posts/bees-good-at-math/" />
+ </url>
+ <url>
+  <loc>https://damakubu.github.io/damakubu/posts/dns-and-happiness-survey-analysis/</loc>
+  <lastmod>2024-03-03T00:20:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="lt" href="https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/" />
+ </url>
+ <url>
+  <loc>https://damakubu.github.io/damakubu/posts/ego-tribe/</loc>
+  <lastmod>2024-03-03T00:20:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="lt" href="https://damakubu.github.io/damakubu/lt/posts/ego-tribe/" />
  </url>
  <url>
   <loc>https://damakubu.github.io/damakubu/posts/expected-utility-evoliutonary-remarks-on-why-its-not-intuitive/</loc>
