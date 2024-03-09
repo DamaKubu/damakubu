@@ -13,12 +13,18 @@
 
 
 
+
+
 .. sidebar:: TLDR:
 
-   Turiu teisės kurselį, kuriame rengiau pristatymą teisėkūros tema. Norėjau įdėti įstatymų skaičiaus nuo metų priklausomybę, bet niekur tokios neradau. Tad nusprendžiau ją padaryt. Ir apie iš to mini straipsnelis gavosi, nes radau visai įdomių dalykėlių. Jei patinka video formatas štai jums `filmukas <https://youtu.be/_U70RkF1AHw>`_ 
+   Turiu teisės kurselį, kuriame rengiau pristatymą teisėkūros tema. Norėjau įdėti įstatymų skaičiaus nuo metų priklausomybę, bet niekur tokios neradau. Tad nusprendžiau ją padaryt. Ir apie iš to mini straipsnelis gavosi, nes radau visai įdomių dalykėlių.
 
-Dabartiniai 
-============
+**`filmukas <https://youtu.be/1zm5qfWEzgo>`_**
+------------------------------------------------
+
+
+Teisiniai dokumentai dabar 2024-03-05
+-------------------------------------
 
 Iš viso yra **69** dokumentų klasės ir iš viso dabar yra per 421 tūkstantį galiojančių teisės dokumentų, čia didžiausios kategorijos:
 
@@ -34,42 +40,20 @@ Iš viso yra **69** dokumentų klasės ir iš viso dabar yra per 421 tūkstantį
     
     - Įstatymas    13921
 
+Su įstatymų kiekiu nuo laiko padariau trumputę statistiką ir radau, jog įstatymų skaičius per laiką auga lėta eksponente(kadangi pats augimas taip pat auga).
+
+.. figure:: /images/prognoze_istatymai.png
+   :width: 800
+   :align: center
+   
+   Čia mėlyni taškeliai galiojančių įstatymų augimas. Taškams pritaikyta eksponentė, bei tiesė. Kuria galime bandyti prognozuoti, kiek įstatymų Lietuvoje bus ateityje.
+   
+   
 
 
 
+.. [0] Duomenys, kodas ir pristatymo skaidrės : **`Github <https://github.com/DamaKubu/teis-k-ra>`_**
 
-
-
-
-Išvados
-----------
-
-    * DNS ir subjektyvus laimingumas išties koreliuoja $R = 0.59$ ir $p = 0.00014$.
-    
-    * Religijos keitimas ir vaikystės pasitenkinimas koreliuoja $R = 0.33$ ir $p = 0.033$
-    
-    * Moterų ir vyrų DNS rezultatai skiriasi labai silpnai.
-
-
-
-Duomenų rinkimas
-------------------
-Scrapinau duomenis *rankiniu* metodu.
-Nors turiu filosofija, jei galima automatizuok, bet greičiausiai čia buvo dalinė automatizacija, pilnai automatizacijai būčiau išnaudojęs visą laiko biudžetą.
-Kopijavau negražius stulpelius į csv failą, o iš jo ištraukiau tai ko man reikia naudodamas python kalbą. Čia pateikiu savo surašytus ir apdirbtus duomenis
-
-.. [69] github atviri tyrimo duomenys: `Github <https://github.com/DamaKubu/Depresija_ir_Nuostatos>`_ 
-
-
-
-
-Šaltiniai:
------------
-
-.. [4]  Lyubomirsky, S. & Lepper, H. S. (1999). A measure of subjective happines: Preliminary reliability and construct validation. Social indicators research, 46, 137-155.
-
-
-.. [5] Stoet, G. (2010). PsyToolkit - A software package for programming psychological experiments using Linux. Behavior Research Methods, 42(4), 1096-1104. Stoet, G. (2017). PsyToolkit: A novel web-based method for running online questionnaires and reaction-time experiments. Teaching of Psychology, 44(1), 24-31.
 
 
 
