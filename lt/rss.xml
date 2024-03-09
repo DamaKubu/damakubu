@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DamaKubu</title><link>https://damakubu.github.io/damakubu/</link><description>Asmeninė svetainė/blogas</description><atom:link href="https://damakubu.github.io/damakubu/lt/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>lt</language><copyright>Contents © 2024 &lt;a href="mailto:kundrotasdanielius@gmail.com"&gt;Danielius Kundrotas&lt;/a&gt; </copyright><lastBuildDate>Sat, 09 Mar 2024 15:03:28 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Įstatymų skaičiaus statistika</title><link>https://damakubu.github.io/damakubu/lt/posts/istatymu-skaiciaus-statistika/</link><dc:creator>Danielius Kundrotas</dc:creator><description>&lt;nav class="contents alert alert-info pull-left" id="turinys" role="doc-toc"&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DamaKubu</title><link>https://damakubu.github.io/damakubu/</link><description>Asmeninė svetainė/blogas</description><atom:link href="https://damakubu.github.io/damakubu/lt/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>lt</language><copyright>Contents © 2024 &lt;a href="mailto:kundrotasdanielius@gmail.com"&gt;Danielius Kundrotas&lt;/a&gt; </copyright><lastBuildDate>Sat, 09 Mar 2024 15:08:23 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Įstatymų skaičiaus statistika</title><link>https://damakubu.github.io/damakubu/lt/posts/istatymu-skaiciaus-statistika/</link><dc:creator>Danielius Kundrotas</dc:creator><description>&lt;nav class="contents alert alert-info pull-left" id="turinys" role="doc-toc"&gt;
 &lt;p class="topic-title"&gt;Turinys&lt;/p&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;&lt;p&gt;&lt;a class="reference internal" href="https://damakubu.github.io/damakubu/lt/posts/istatymu-skaiciaus-statistika/#filmukas-https-youtu-be-1zm5qfwezgo" id="toc-entry-1"&gt;&lt;strong&gt;`filmukas &amp;lt;https://youtu.be/1zm5qfWEzgo&amp;gt;`_&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class="reference internal" href="https://damakubu.github.io/damakubu/lt/posts/istatymu-skaiciaus-statistika/#filmukas-1" id="toc-entry-1"&gt;filmukas&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a class="reference internal" href="https://damakubu.github.io/damakubu/lt/posts/istatymu-skaiciaus-statistika/#teisiniai-dokumentai-dabar-2024-03-05" id="toc-entry-2"&gt;Teisiniai dokumentai dabar 2024-03-05&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/nav&gt;
@@ -10,8 +10,8 @@
 &lt;p class="sidebar-title"&gt;TLDR:&lt;/p&gt;
 &lt;p&gt;Turiu teisės kurselį, kuriame rengiau pristatymą teisėkūros tema. Norėjau įdėti įstatymų skaičiaus nuo metų priklausomybę, bet niekur tokios neradau. Tad nusprendžiau ją padaryt. Ir apie iš to mini straipsnelis gavosi, nes radau visai įdomių dalykėlių.&lt;/p&gt;
 &lt;/aside&gt;
-&lt;section id="filmukas-https-youtu-be-1zm5qfwezgo"&gt;
-&lt;h2&gt;&lt;a class="toc-backref" href="https://damakubu.github.io/damakubu/lt/posts/istatymu-skaiciaus-statistika/#toc-entry-1" role="doc-backlink"&gt;&lt;strong&gt;`filmukas &amp;lt;https://youtu.be/1zm5qfWEzgo&amp;gt;`_&lt;/strong&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;section id="filmukas-1"&gt;
+&lt;h2&gt;&lt;a class="reference external" href="https://youtu.be/1zm5qfWEzgo"&gt;filmukas&lt;/a&gt;&lt;/h2&gt;
 &lt;/section&gt;
 &lt;section id="teisiniai-dokumentai-dabar-2024-03-05"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="https://damakubu.github.io/damakubu/lt/posts/istatymu-skaiciaus-statistika/#toc-entry-2" role="doc-backlink"&gt;Teisiniai dokumentai dabar 2024-03-05&lt;/a&gt;&lt;/h2&gt;
@@ -36,7 +36,7 @@
 &lt;aside class="footnote-list brackets"&gt;
 &lt;aside class="footnote brackets" id="footnote-1" role="doc-footnote"&gt;
 &lt;span class="label"&gt;&lt;span class="fn-bracket"&gt;[&lt;/span&gt;0&lt;span class="fn-bracket"&gt;]&lt;/span&gt;&lt;/span&gt;
-&lt;p&gt;Duomenys, kodas ir pristatymo skaidrės : &lt;strong&gt;`Github &amp;lt;https://github.com/DamaKubu/teis-k-ra&amp;gt;`_&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Duomenys, kodas ir pristatymo skaidrės : &lt;a class="reference external" href="https://github.com/DamaKubu/teis-k-ra"&gt;Github&lt;/a&gt;&lt;/p&gt;
 &lt;/aside&gt;
 &lt;/aside&gt;
 &lt;/section&gt;</description><guid>https://damakubu.github.io/damakubu/lt/posts/istatymu-skaiciaus-statistika/</guid><pubDate>Wed, 06 Mar 2024 17:14:15 GMT</pubDate></item><item><title>Ego-gentis</title><link>https://damakubu.github.io/damakubu/lt/posts/ego-tribe/</link><dc:creator>Danielius Kundrotas</dc:creator><description>&lt;nav class="contents alert alert-info pull-left" id="turinys" role="doc-toc"&gt;

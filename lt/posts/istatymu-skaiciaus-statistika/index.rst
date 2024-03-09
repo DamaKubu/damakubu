@@ -19,8 +19,8 @@
 
    Turiu teisės kurselį, kuriame rengiau pristatymą teisėkūros tema. Norėjau įdėti įstatymų skaičiaus nuo metų priklausomybę, bet niekur tokios neradau. Tad nusprendžiau ją padaryt. Ir apie iš to mini straipsnelis gavosi, nes radau visai įdomių dalykėlių.
 
-**`filmukas <https://youtu.be/1zm5qfWEzgo>`_**
-------------------------------------------------
+`filmukas <https://youtu.be/1zm5qfWEzgo>`_
+--------------------------------------------
 
 
 Teisiniai dokumentai dabar 2024-03-05
@@ -52,7 +52,7 @@ Su įstatymų kiekiu nuo laiko padariau trumputę statistiką ir radau, jog įst
 
 
 
-.. [0] Duomenys, kodas ir pristatymo skaidrės : **`Github <https://github.com/DamaKubu/teis-k-ra>`_**
+.. [0] Duomenys, kodas ir pristatymo skaidrės : `Github <https://github.com/DamaKubu/teis-k-ra>`_
 
 
 
