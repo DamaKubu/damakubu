@@ -19,7 +19,7 @@
  </url>
  <url>
   <loc>https://damakubu.github.io/damakubu/archive.html</loc>
-  <lastmod>2024-03-03T00:20:00Z</lastmod>
+  <lastmod>2024-03-09T14:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://damakubu.github.io/damakubu/categories/</loc>
@@ -47,7 +47,7 @@
  </url>
  <url>
   <loc>https://damakubu.github.io/damakubu/lt/archive.html</loc>
-  <lastmod>2024-03-03T00:20:00Z</lastmod>
+  <lastmod>2024-03-09T14:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://damakubu.github.io/damakubu/lt/categories/</loc>
@@ -108,6 +108,11 @@
   <lastmod>2023-09-28T21:01:00Z</lastmod>
  </url>
  <url>
+  <loc>https://damakubu.github.io/damakubu/lt/posts/istatymu-skaiciaus-statistika/</loc>
+  <lastmod>2024-03-09T14:50:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://damakubu.github.io/damakubu/posts/istatymu-skaiciaus-statistika/" />
+ </url>
+ <url>
   <loc>https://damakubu.github.io/damakubu/lt/posts/se%20vs%20std/</loc>
   <lastmod>2023-09-29T07:15:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="https://damakubu.github.io/damakubu/posts/se%20vs%20std/" />
@@ -141,6 +146,11 @@
   <loc>https://damakubu.github.io/damakubu/posts/grafiti/</loc>
   <lastmod>2023-09-28T20:42:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="lt" href="https://damakubu.github.io/damakubu/lt/posts/grafiti/" />
+ </url>
+ <url>
+  <loc>https://damakubu.github.io/damakubu/posts/istatymu-skaiciaus-statistika/</loc>
+  <lastmod>2024-03-09T14:50:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="lt" href="https://damakubu.github.io/damakubu/lt/posts/istatymu-skaiciaus-statistika/" />
  </url>
  <url>
   <loc>https://damakubu.github.io/damakubu/posts/se%20vs%20std/</loc>

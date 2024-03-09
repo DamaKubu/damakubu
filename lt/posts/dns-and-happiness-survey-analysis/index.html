@@ -16,7 +16,7 @@
 <link rel="canonical" href="https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/">
 <!--[if lt IE 9]><script src="../../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Danielius Kundrotas">
 <link rel="prev" href="../bees-good-at-math/" title="Bitės moka matematika?" type="text/html">
-<link rel="next" href="../ego-tribe/" title="Ego-tribe" type="text/html">
+<link rel="next" href="../ego-tribe/" title="Ego-gentis" type="text/html">
 <meta property="og:site_name" content="DamaKubu">
 <meta property="og:title" content="Disfunkcinės nuostatos ir laimingumas">
 <meta property="og:url" content="https://damakubu.github.io/damakubu/lt/posts/dns-and-happiness-survey-analysis/">
@@ -207,26 +207,25 @@ Prižadėjau apklausoje, jog padarysiu analizę ir atsiųsiu rezultatus pasilygi
 </ul>
 </blockquote>
 </section><section id="analize"><h2><a class="toc-backref" href="#toc-entry-6" role="doc-backlink">Analizė</a></h2>
-<p>Jaučiuosi atlikęs itin išsamią analizę. Manau esmė galima iš esmės pateikti koreliacijos matrica.</p>
-<p>Pirmiausia pateiksiu svarbiausius rezultatus</p>
-<figure class="align-center"><img alt="/images/koreliacija_matrica_1.png" src="../../../images/koreliacija_matrica_1.png" style="width: 800px;"><figcaption><p>Naudojamas Spearman koeficientas ir rodoma koreliacija tarp skirtingų konceptų. Pažymėtina būtent išankstinių hipotezių numatytos dvi koreliacijos yra didžiausios 0.51 ir 0.37. Pagal lentelę tokios koreliacijos reikšmės nurodo vidutinį koreliavimą.</p>
+<p>Jaučiuosi kiek galima tiek rezultatus išspaudęs, visgi esmei pateikti užtenka koreliacijos matricos:</p>
+<figure class="align-center"><img alt="/images/koreliacija_matrica_1.png" src="../../../images/koreliacija_matrica_1.png" style="width: 800px;"><figcaption><p>Naudojamas Spearman koeficientas ir rodoma koreliacija tarp skirtingų DNS kategorijų. Pažymėtina būtent išankstinių hipotezių numatytos dvi koreliacijos yra didžiausios 0.51 ir 0.37. Pagal lentelę tokios koreliacijos reikšmės nurodo vidutinį koreliavimą.</p>
 </figcaption></figure><figure class="align-center"><img alt="/images/koreliacija_matrica_2.png" src="../../../images/koreliacija_matrica_2.png" style="width: 800px;"><figcaption><p>p reikšmingumas matrica(kuo mažesnė tuo geriau.)</p>
 </figcaption></figure><p>Pateiksiu abu grafikus:</p>
-<figure class="align-center"><img alt="/images/DNS_vs_SHS.png" src="../../../images/DNS_vs_SHS.png" style="width: 800px;"><figcaption><p>Disfunkcinės nuostatos versus laimingumo testo rezultatai. R, tai Pearsono koreliacija.</p>
+<figure class="align-center"><img alt="/images/DNS_vs_SHS.png" src="../../../images/DNS_vs_SHS.png" style="width: 800px;"><figcaption><p>Disfunkcinės nuostatos versus laimingumo testo rezultatai. Čia R Pirsono koreliacija.</p>
 </figcaption></figure><figure class="align-center"><img alt="/images/religija_vs_vaikyste.png" src="../../../images/religija_vs_vaikyste.png" style="width: 800px;"><figcaption><p>Rezultatai, tarp vaikystės religijos keitimo ir pasitenkinimu vaikyste.</p>
 </figcaption></figure><section id="dns"><h3><a class="toc-backref" href="#toc-entry-7" role="doc-backlink">DNS</a></h3>
 <figure class="align-center"><img alt="/images/dns/koreliacijos_matrica_didelė.png" src="../../../images/dns/koreliacijos_matrica_didel%C4%97.png" style="width: 800px;"><figcaption><p>Spearmano koreliacinė matrica.</p>
 </figcaption></figure><aside class="sidebar"><p class="sidebar-title">intervalas</p>
 <p>Standartinis nuokrypis, standartinė paklaida ir patikimumo intervalas yra susiję, bet atskiri dalykai <a class="reference external" href="https://www.data-to-viz.com/caveat/error_bar.html">blog post</a>. Standartinė paklaida, tai standartinis nuokrypis padalintas iš grupės skaičiaus šaknies. O patikimumo intervalas, tai standartinė paklaida padauginta iš stjudento koeficiento atitinkam imties skaičiui.</p>
-</aside><figure class="align-center"><img alt="/images/dns/DNS_voras.png" src="../../../images/dns/DNS_voras.png" style="width: 800px;"><figcaption><p>Skritulinė vidurkio histogramą, nurodyti standartinės paklaidos intervalai.</p>
+</aside><figure class="align-center"><img alt="/images/dns/DNS_voras.png" src="../../../images/dns/DNS_voras.png" style="width: 800px;"><figcaption><p>Skritulinė vidurkio histogramą, nurodyti standartinės paklaidos intervalai. Tai išties naudingas rezultatas kiekvienam. Nes jeigu gavote pavyzdžiui <em>pripažinimas</em> = 0, tai nebūtinai reiškia, jog turite blogą santykį su <em>pripažinimu</em>. Nes imties vidurkis čia yra -1, tad daugelis žmonių turi tą pačią bėda. Arba tai išvis nebėda, o tiesiog skalė sunormuota neteisingai! Po pokalbio su vienu dalyviu, manyčiau, jog svarbiau, atkreiptį dėmesį į tas vietas, kur esate žemiau imties vidurkio. Ten esate silpnesnis negu dauguma, taigi tai labiau jūsų <em>tikroji</em> silpna vieta. Na čia darant prielaidą, jog imtis pakankamai atsitiktinė. Galbūt mes Lietuviai vidutiniškai silpnesni su <em>pripažinimu</em> lyginant su kitomis tautomis ir absoliuti skalė teisinga. Čia vidurkio standartinės paklaidos intervaliukai, reiškia, jog realus populiacijos vidurkis su 99% tikimybe kris į pažymėtą intervaliuką.</p>
 </figcaption></figure></section><section id="moterys-vs-vyrai"><h3><a class="toc-backref" href="#toc-entry-8" role="doc-backlink">Moterys vs. vyrai</a></h3>
 <aside class="sidebar"><p class="sidebar-title">Nulinė hipotezė</p>
 <p>$H_0$ - moterų ir vyrų DNS nesiskiria.</p>
 </aside><p>Pagal hipotezę vyrų ir moterų DNS turėtų būti aukštesnis, nes moterų vidutinis emocinis intelektas aukštesnis.</p>
 <p>Išties moterų dns vidutinis suminis DNS aukštesnis dviem balais, bet naudojant permutacijų metodą, matome, jog rezultatas tikėtinas ir esant nulinei hipotezei.</p>
-<figure class="align-center"><img alt="/images/dns/moterys_vs_vyrai.png" src="../../../images/dns/moterys_vs_vyrai.png" style="width: 800px;"><figcaption><p>Rodykle rarodome vyrų vidurkio ir moterų skirtumą. O histograma gaunama naudojant permutacijų metodą: sudedam abi grupes į vieną masyvą, tada iš masyvo traukiam dvi grupes ir jas lyginame, daug lyginimo rezultato reikšmių ir sudaro histogramą. Matome, jog gauta vertė išties tikėtina esant $H_0$.</p>
+<figure class="align-center"><img alt="/images/dns/moterys_vs_vyrai.png" src="../../../images/dns/moterys_vs_vyrai.png" style="width: 800px;"><figcaption><p>Rodykle parodome vyrų vidurkio ir moterų skirtumą. O histograma gaunama naudojant permutacijų metodą: sudedam abi grupes į vieną masyvą, tada iš masyvo traukiam dvi grupes ir jas lyginame, daug lyginimo rezultato reikšmių ir sudaro histogramą. Matome, jog gauta vertė išties tikėtina esant $H_0$.</p>
 </figcaption></figure><p>Bet atskiriem DNS kategorijai pripažinimas išties yra reikšmingas vidurkių skirtumas tarp vyrų ir moterų:</p>
-<figure class="align-center"><img alt="/images/dns/pasiekimai.png" src="../../../images/dns/pasiekimai.png" style="width: 800px;"><figcaption><p>Moterys pasiekimų atžvilgiu turi sveikesnį nusistatymą. Reikšmingumas $p = 0.084$.</p>
+<figure class="align-center"><img alt="/images/dns/pasiekimai.png" src="../../../images/dns/pasiekimai.png" style="width: 800px;"><figcaption><p>Moterys pasiekimų atžvilgiu turi sveikesnį nusistatymą. Reikšmingumas $p = 0.084$. Deja tiriamos vienu kartu išvis 7 nulinės hipotezės, tad tikrasis reikšmingumas yra $p = 0.084*7 = 0.588$. Tai yra šis rezultatas nors ir turintis didžiausią reikšmingumą nėra reikšmingas.</p>
 </figcaption></figure><figure class="align-center"><img alt="/images/dns/pripažinimas.png" src="../../../images/dns/pripa%C5%BEinimas.png" style="width: 800px;"><figcaption><p>Iš pirmo žvilgsnio atrodo, jog panaši sitauacija ir su pasiekimais: moterys pasiekimų atžvilgiu turi sveikesnį nusistatymą Bet atkreipus dėmesį rodyklėlės vietą, itin tikėtina, jog atsitiktinai jinai ten atsidurė $p = 0.64$.</p>
 </figcaption></figure><figure class="align-center"><img alt="/images/dns/meilė.png" src="../../../images/dns/meil%C4%97.png" style="width: 800px;"><figcaption><p>Matome, jog vyrų ir moterų grupės meilės aspektu statistiškai nesiskiria. Analogiškai nesiskiria ir  perfekcionizmas, bei galia.</p>
 </figcaption></figure><figure class="align-center"><img alt="/images/dns/atlygiolaukimas.png" src="../../../images/dns/atlygiolaukimas.png" style="width: 800px;"><figcaption><p>Atrodo yra neigiamas skirtumas, bet vėlgi reikšmingumas $p = 0.7$, tai išvadų daryti negalim.</p>
@@ -261,7 +260,7 @@ Prižadėjau apklausoje, jog padarysiu analizę ir atsiųsiu rezultatus pasilygi
                 <a href="../bees-good-at-math/" rel="prev" title="Bitės moka matematika?">Ankstesnis įrašas</a>
             </li>
             <li class="next">
-                <a href="../ego-tribe/" rel="next" title="Ego-tribe">Sekantis įrašas</a>
+                <a href="../ego-tribe/" rel="next" title="Ego-gentis">Sekantis įrašas</a>
             </li>
         </ul></nav></aside><section class="comments hidden-print"><h2>Komentarai</h2>
         

@@ -150,17 +150,15 @@ Prižadėjau apklausoje, jog padarysiu analizę ir atsiųsiu rezultatus pasilygi
 Analizė
 ===========
 
-Jaučiuosi atlikęs itin išsamią analizę. Manau esmė galima iš esmės pateikti koreliacijos matrica.
+Jaučiuosi kiek galima tiek rezultatus išspaudęs, visgi esmei pateikti užtenka koreliacijos matricos:
 
-
-Pirmiausia pateiksiu svarbiausius rezultatus
 
 
 .. figure:: /images/koreliacija_matrica_1.png
    :width: 800
    :align: center
    
-   Naudojamas Spearman koeficientas ir rodoma koreliacija tarp skirtingų konceptų. Pažymėtina būtent išankstinių hipotezių numatytos dvi koreliacijos yra didžiausios 0.51 ir 0.37. Pagal lentelę tokios koreliacijos reikšmės nurodo vidutinį koreliavimą.
+   Naudojamas Spearman koeficientas ir rodoma koreliacija tarp skirtingų DNS kategorijų. Pažymėtina būtent išankstinių hipotezių numatytos dvi koreliacijos yra didžiausios 0.51 ir 0.37. Pagal lentelę tokios koreliacijos reikšmės nurodo vidutinį koreliavimą.
    
    
 .. figure:: /images/koreliacija_matrica_2.png
@@ -177,7 +175,7 @@ Pateiksiu abu grafikus:
    :width: 800
    :align: center
    
-   Disfunkcinės nuostatos versus laimingumo testo rezultatai. R, tai Pearsono koreliacija.
+   Disfunkcinės nuostatos versus laimingumo testo rezultatai. Čia R Pirsono koreliacija.
    
 
 
@@ -208,7 +206,7 @@ DNS
    :width: 800
    :align: center
    
-   Skritulinė vidurkio histogramą, nurodyti standartinės paklaidos intervalai.
+   Skritulinė vidurkio histogramą, nurodyti standartinės paklaidos intervalai. Tai išties naudingas rezultatas kiekvienam. Nes jeigu gavote pavyzdžiui *pripažinimas* = 0, tai nebūtinai reiškia, jog turite blogą santykį su *pripažinimu*. Nes imties vidurkis čia yra -1, tad daugelis žmonių turi tą pačią bėda. Arba tai išvis nebėda, o tiesiog skalė sunormuota neteisingai! Po pokalbio su vienu dalyviu, manyčiau, jog svarbiau, atkreiptį dėmesį į tas vietas, kur esate žemiau imties vidurkio. Ten esate silpnesnis negu dauguma, taigi tai labiau jūsų *tikroji* silpna vieta. Na čia darant prielaidą, jog imtis pakankamai atsitiktinė. Galbūt mes Lietuviai vidutiniškai silpnesni su *pripažinimu* lyginant su kitomis tautomis ir absoliuti skalė teisinga. Čia vidurkio standartinės paklaidos intervaliukai, reiškia, jog realus populiacijos vidurkis su 99% tikimybe kris į pažymėtą intervaliuką.
 
 
 
@@ -231,7 +229,7 @@ Išties moterų dns vidutinis suminis DNS aukštesnis dviem balais, bet naudojan
    :width: 800
    :align: center
    
-   Rodykle rarodome vyrų vidurkio ir moterų skirtumą. O histograma gaunama naudojant permutacijų metodą: sudedam abi grupes į vieną masyvą, tada iš masyvo traukiam dvi grupes ir jas lyginame, daug lyginimo rezultato reikšmių ir sudaro histogramą. Matome, jog gauta vertė išties tikėtina esant $H_0$.
+   Rodykle parodome vyrų vidurkio ir moterų skirtumą. O histograma gaunama naudojant permutacijų metodą: sudedam abi grupes į vieną masyvą, tada iš masyvo traukiam dvi grupes ir jas lyginame, daug lyginimo rezultato reikšmių ir sudaro histogramą. Matome, jog gauta vertė išties tikėtina esant $H_0$.
 
 
 Bet atskiriem DNS kategorijai pripažinimas išties yra reikšmingas vidurkių skirtumas tarp vyrų ir moterų:
@@ -240,7 +238,7 @@ Bet atskiriem DNS kategorijai pripažinimas išties yra reikšmingas vidurkių s
    :width: 800
    :align: center
    
-   Moterys pasiekimų atžvilgiu turi sveikesnį nusistatymą. Reikšmingumas $p = 0.084$.
+   Moterys pasiekimų atžvilgiu turi sveikesnį nusistatymą. Reikšmingumas $p = 0.084$. Deja tiriamos vienu kartu išvis 7 nulinės hipotezės, tad tikrasis reikšmingumas yra $p = 0.084*7 = 0.588$. Tai yra šis rezultatas nors ir turintis didžiausią reikšmingumą nėra reikšmingas. 
 
 
 .. figure:: /images/dns/pripažinimas.png
@@ -284,6 +282,7 @@ Ahm norint tirti vyrų ir moterų skirtumus reikia didesnės imties, manau tik p
 
 
 
+
 Išvados
 ----------
 
@@ -310,7 +309,5 @@ Išvados
 
 .. [5] Bei google collabas, kur galima pažaist su duomenimis nieko neinstaliuojant.
     `tyrimo collabas <https://colab.research.google.com/drive/1Y70bVFKRjhydVF1sFl_ZOQ4QwlZDURDO?usp=sharing>`_
-
-
 
 

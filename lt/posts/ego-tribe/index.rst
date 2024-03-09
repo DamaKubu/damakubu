@@ -37,9 +37,17 @@
    Manau daug milijonų metų mūsų evoliucinis grafikas žymiai labiau priminė būtent tokį tinklą.
    
    
+Šiuolaikinis pasaulis
+----------------------
 
-Kodėl sudaryti didesnes grupes vis sunkiau?
---------------------------------------------
+Visgi gyvename globalioje gentyje, ir toks egocentriškumas naturalus reiškinys.
+Ir taip jis per mažas, jeigu mūsų artimų žmonių ratą sudarytų atsiktiniai žmonės iš viso pasaulio. Tada globaliame maste nebūtų tokių užsidariusių grupelių ir toks reiškinys kaip karas būtų sunkiai suvokiamas. Nes yra viena globali žmonių grupė. Kadangi dar yra aiškiai aukštesnė koreliacija, jog tavo artimi žmonės priklausys tai pačiai šaliai. Tada toks dalykas kaip šalis yra aiškus konceptas. Turint kiekvienam dar egocentriškesnį grafiką su daugiau pažinčių, kaip tik artėjame į labiau utopinį pasaulį. Prie kurio biologiškai nesame prisitaikę.
+
+
+
+
+Kodėl sudaryti dideles grupes išlaikančias intymumą sunku?
+-----------------------------------------------------------
 
 Mažesnės grupės lengviau tiesiod dėl matematinio fakto, jog santykių kiekis grupėje su $n$ žmonių yra lygus $n(n-1)/2$   [1]_
 
@@ -52,6 +60,7 @@ Tad:
     100 žmonių jau ~5000 ryšiai.
 
 Kad žmogus galėtų drąsiai jaustis ir dalintis, nebūtinai visuomeniškai priimtinom idėjom, kiekvienam žmogui privalu visais kitais grupės nariais pasitikėti. Didėjant grupei, kvadratu mažėja tikimybė, jog kiekvienas žmogus visus pažinos. Tad labai paprasta matematika paaiškina, kodėl dideles grupės įprastai neturi intymumo.
+
 
 
 Kaip matuoti intymumą?
